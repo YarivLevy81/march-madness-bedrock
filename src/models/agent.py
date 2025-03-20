@@ -31,7 +31,7 @@ class BracketAgent:
         3. Provide clear reasoning for your prediction
         4. Make a final prediction on which team will win
         
-        Your response should follow this format:
+        Your response MUST follow this exact format:
         
         ANALYSIS:
         [Your detailed analysis of both teams, comparing their strengths and weaknesses]
@@ -40,7 +40,9 @@ class BracketAgent:
         [Your reasoning for why one team has an advantage over the other]
         
         PREDICTION:
-        [Team Name]
+        [EXACT team name - just the name of the winning team, nothing else]
+        
+        IMPORTANT: In the PREDICTION section, provide ONLY the exact name of the winning team (e.g., "Duke" or "Michigan State"). Do not include any additional text, explanations, or qualifiers in this section.
         """
     
     def predict_winner(self, team1, team2, round_number):
@@ -113,6 +115,13 @@ class BracketAgent:
         {self._format_team_stats(team2_stats)}
         
         Based on the statistics above, analyze both teams and predict which team will win this {round_name} matchup.
+        
+        Remember to follow the exact format:
+        1. ANALYSIS: (detailed comparison)
+        2. REASONING: (why one team has the advantage)
+        3. PREDICTION: (ONLY the exact name of the winning team - either "{team1['name']}" or "{team2['name']}")
+        
+        Your prediction must be clear and unambiguous.
         """
         
         return prompt
@@ -174,7 +183,7 @@ class BracketAgent:
         if reasoning_match:
             result["reasoning"] = reasoning_match.group(1).strip()
         
-        # Extract prediction
+        # Extract prediction - try multiple patterns
         prediction_match = re.search(r"PREDICTION:(.*?)$", response, re.DOTALL)
         if prediction_match:
             result["prediction"] = prediction_match.group(1).strip()
