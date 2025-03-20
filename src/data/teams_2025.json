@@ -1,0 +1,407 @@
+{
+  "Nebraska": {
+    "name": "Nebraska",
+    "seed": 8,
+    "region": "Midwest"
+  },
+  "Arizona": {
+    "name": "Arizona",
+    "seed": 3,
+    "region": "East"
+  },
+  "Bryant": {
+    "name": "Bryant",
+    "seed": 15,
+    "region": "South"
+  },
+  "Georgia": {
+    "name": "Georgia",
+    "seed": 9,
+    "region": "Midwest"
+  },
+  "Wisconsin": {
+    "name": "Wisconsin",
+    "seed": 6,
+    "region": "East"
+  },
+  "High Point": {
+    "name": "High Point",
+    "seed": 13,
+    "region": "Midwest"
+  },
+  "Liberty": {
+    "name": "Liberty",
+    "seed": 12,
+    "region": "East"
+  },
+  "Purdue": {
+    "name": "Purdue",
+    "seed": 2,
+    "region": "South"
+  },
+  "Kansas": {
+    "name": "Kansas",
+    "seed": 7,
+    "region": "West"
+  },
+  "New Mexico St": {
+    "name": "New Mexico St",
+    "seed": 11,
+    "region": "Midwest"
+  },
+  "Louisville": {
+    "name": "Louisville",
+    "seed": 12,
+    "region": "South"
+  },
+  "Missouri": {
+    "name": "Missouri",
+    "seed": 6,
+    "region": "West"
+  },
+  "Iowa": {
+    "name": "Iowa",
+    "seed": 2,
+    "region": "Midwest"
+  },
+  "Arkansas": {
+    "name": "Arkansas",
+    "seed": 10,
+    "region": "West"
+  },
+  "Saint Peter's": {
+    "name": "Saint Peter's",
+    "seed": 15,
+    "region": "East"
+  },
+  "Oregon St": {
+    "name": "Oregon St",
+    "seed": 10,
+    "region": "Midwest"
+  },
+  "UC San Diego": {
+    "name": "UC San Diego",
+    "seed": 12,
+    "region": "South"
+  },
+  "Drake": {
+    "name": "Drake",
+    "seed": 12,
+    "region": "Midwest"
+  },
+  "Duke": {
+    "name": "Duke",
+    "seed": 1,
+    "region": "East"
+  },
+  "UCLA": {
+    "name": "UCLA",
+    "seed": 7,
+    "region": "Midwest"
+  },
+  "Colorado": {
+    "name": "Colorado",
+    "seed": 13,
+    "region": "Midwest"
+  },
+  "UConn": {
+    "name": "UConn",
+    "seed": 8,
+    "region": "West"
+  },
+  "Alabama": {
+    "name": "Alabama",
+    "seed": 3,
+    "region": "Midwest"
+  },
+  "SIUE": {
+    "name": "SIUE",
+    "seed": 16,
+    "region": "Midwest"
+  },
+  "Long Beach St": {
+    "name": "Long Beach St",
+    "seed": 14,
+    "region": "East"
+  },
+  "Dayton": {
+    "name": "Dayton",
+    "seed": 10,
+    "region": "South"
+  },
+  "Morehead St": {
+    "name": "Morehead St",
+    "seed": 7,
+    "region": "Midwest"
+  },
+  "Texas Tech": {
+    "name": "Texas Tech",
+    "seed": 3,
+    "region": "West"
+  },
+  "Western Kentucky": {
+    "name": "Western Kentucky",
+    "seed": 13,
+    "region": "East"
+  },
+  "Maryland": {
+    "name": "Maryland",
+    "seed": 7,
+    "region": "South"
+  },
+  "San Diego St": {
+    "name": "San Diego St",
+    "seed": 13,
+    "region": "West"
+  },
+  "Michigan": {
+    "name": "Michigan",
+    "seed": 4,
+    "region": "West"
+  },
+  "Creighton": {
+    "name": "Creighton",
+    "seed": 5,
+    "region": "South"
+  },
+  "Kentucky": {
+    "name": "Kentucky",
+    "seed": 5,
+    "region": "East"
+  },
+  "Saint Mary's": {
+    "name": "Saint Mary's",
+    "seed": 7,
+    "region": "East"
+  },
+  "Yale": {
+    "name": "Yale",
+    "seed": 13,
+    "region": "South"
+  },
+  "Memphis": {
+    "name": "Memphis",
+    "seed": 5,
+    "region": "West"
+  },
+  "Texas A&M": {
+    "name": "Texas A&M",
+    "seed": 4,
+    "region": "South"
+  },
+  "New Mexico": {
+    "name": "New Mexico",
+    "seed": 11,
+    "region": "West"
+  },
+  "Boise St": {
+    "name": "Boise St",
+    "seed": 4,
+    "region": "Midwest"
+  },
+  "Florida": {
+    "name": "Florida",
+    "seed": 1,
+    "region": "West"
+  },
+  "Vanderbilt": {
+    "name": "Vanderbilt",
+    "seed": 10,
+    "region": "East"
+  },
+  "Norfolk St": {
+    "name": "Norfolk St",
+    "seed": 16,
+    "region": "West"
+  },
+  "Oklahoma": {
+    "name": "Oklahoma",
+    "seed": 9,
+    "region": "West"
+  },
+  "Utah State": {
+    "name": "Utah State",
+    "seed": 10,
+    "region": "Midwest"
+  },
+  "Vermont": {
+    "name": "Vermont",
+    "seed": 15,
+    "region": "Midwest"
+  },
+  "Grambling": {
+    "name": "Grambling",
+    "seed": 15,
+    "region": "South"
+  },
+  "Iowa State": {
+    "name": "Iowa State",
+    "seed": 3,
+    "region": "South"
+  },
+  "Troy": {
+    "name": "Troy",
+    "seed": 14,
+    "region": "Midwest"
+  },
+  "Marquette": {
+    "name": "Marquette",
+    "seed": 4,
+    "region": "East"
+  },
+  "Robert Morris": {
+    "name": "Robert Morris",
+    "seed": 15,
+    "region": "East"
+  },
+  "Akron": {
+    "name": "Akron",
+    "seed": 12,
+    "region": "East"
+  },
+  "Montana": {
+    "name": "Montana",
+    "seed": 14,
+    "region": "East"
+  },
+  "Tennessee": {
+    "name": "Tennessee",
+    "seed": 2,
+    "region": "East"
+  },
+  "St John's": {
+    "name": "St John's",
+    "seed": 2,
+    "region": "West"
+  },
+  "UNC Wilmington": {
+    "name": "UNC Wilmington",
+    "seed": 14,
+    "region": "West"
+  },
+  "Omaha": {
+    "name": "Omaha",
+    "seed": 15,
+    "region": "West"
+  },
+  "BYU": {
+    "name": "BYU",
+    "seed": 6,
+    "region": "East"
+  },
+  "Colorado St": {
+    "name": "Colorado St",
+    "seed": 12,
+    "region": "West"
+  },
+  "Clemson": {
+    "name": "Clemson",
+    "seed": 6,
+    "region": "Midwest"
+  },
+  "Washington St": {
+    "name": "Washington St",
+    "seed": 5,
+    "region": "Midwest"
+  },
+  "Stetson": {
+    "name": "Stetson",
+    "seed": 16,
+    "region": "Midwest"
+  },
+  "North Carolina": {
+    "name": "North Carolina",
+    "seed": 11,
+    "region": "South"
+  },
+  "Auburn": {
+    "name": "Auburn",
+    "seed": 1,
+    "region": "South"
+  },
+  "Grand Canyon": {
+    "name": "Grand Canyon",
+    "seed": 14,
+    "region": "Midwest"
+  },
+  "Michigan St": {
+    "name": "Michigan St",
+    "seed": 9,
+    "region": "South"
+  },
+  "Ole Miss": {
+    "name": "Ole Miss",
+    "seed": 6,
+    "region": "South"
+  },
+  "Lipscomb": {
+    "name": "Lipscomb",
+    "seed": 14,
+    "region": "South"
+  },
+  "McNeese": {
+    "name": "McNeese",
+    "seed": 10,
+    "region": "East"
+  },
+  "Xavier": {
+    "name": "Xavier",
+    "seed": 11,
+    "region": "Midwest"
+  },
+  "Wofford": {
+    "name": "Wofford",
+    "seed": 15,
+    "region": "Midwest"
+  },
+  "Baylor": {
+    "name": "Baylor",
+    "seed": 8,
+    "region": "East"
+  },
+  "Illinois": {
+    "name": "Illinois",
+    "seed": 8,
+    "region": "South"
+  },
+  "James Madison": {
+    "name": "James Madison",
+    "seed": 11,
+    "region": "East"
+  },
+  "Oregon": {
+    "name": "Oregon",
+    "seed": 9,
+    "region": "East"
+  },
+  "Mount St. Mary's": {
+    "name": "Mount St. Mary's",
+    "seed": 16,
+    "region": "East"
+  },
+  "Gonzaga": {
+    "name": "Gonzaga",
+    "seed": 7,
+    "region": "East"
+  },
+  "Alabama St": {
+    "name": "Alabama St",
+    "seed": 16,
+    "region": "South"
+  },
+  "VCU": {
+    "name": "VCU",
+    "seed": 11,
+    "region": "East"
+  },
+  "Mississippi St": {
+    "name": "Mississippi St",
+    "seed": 8,
+    "region": "East"
+  },
+  "Houston": {
+    "name": "Houston",
+    "seed": 1,
+    "region": "Midwest"
+  }
+}

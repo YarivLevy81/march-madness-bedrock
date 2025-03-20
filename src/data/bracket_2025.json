@@ -1,0 +1,477 @@
+{
+  "year": 2025,
+  "structure": {
+    "regions": {
+      "South": {
+        "rounds": {
+          "1": [
+            {
+              "team1": {
+                "name": "Auburn",
+                "seed": 1
+              },
+              "team2": {
+                "name": "Alabama St",
+                "seed": 16
+              }
+            },
+            {
+              "team1": {
+                "name": "Louisville",
+                "seed": 8
+              },
+              "team2": {
+                "name": "Creighton",
+                "seed": 9
+              }
+            },
+            {
+              "team1": {
+                "name": "Michigan",
+                "seed": 5
+              },
+              "team2": {
+                "name": "UC San Diego",
+                "seed": 12
+              }
+            },
+            {
+              "team1": {
+                "name": "Texas A&M",
+                "seed": 4
+              },
+              "team2": {
+                "name": "Yale",
+                "seed": 13
+              }
+            },
+            {
+              "team1": {
+                "name": "Ole Miss",
+                "seed": 6
+              },
+              "team2": {
+                "name": "North Carolina",
+                "seed": 11
+              }
+            },
+            {
+              "team1": {
+                "name": "Iowa State",
+                "seed": 3
+              },
+              "team2": {
+                "name": "Lipscomb",
+                "seed": 14
+              }
+            },
+            {
+              "team1": {
+                "name": "Marquette",
+                "seed": 7
+              },
+              "team2": {
+                "name": "New Mexico",
+                "seed": 10
+              }
+            },
+            {
+              "team1": {
+                "name": "Michigan St",
+                "seed": 2
+              },
+              "team2": {
+                "name": "Bryant",
+                "seed": 15
+              }
+            }
+          ],
+          "2": [
+            {
+              "winner_of": 0
+            },
+            {
+              "winner_of": 1
+            },
+            {
+              "winner_of": 2
+            },
+            {
+              "winner_of": 3
+            }
+          ],
+          "3": [
+            {
+              "winner_of": 0
+            },
+            {
+              "winner_of": 1
+            }
+          ],
+          "4": [
+            {
+              "winner_of": 0
+            }
+          ]
+        }
+      },
+      "West": {
+        "rounds": {
+          "1": [
+            {
+              "team1": {
+                "name": "Florida",
+                "seed": 1
+              },
+              "team2": {
+                "name": "Norfolk St",
+                "seed": 16
+              }
+            },
+            {
+              "team1": {
+                "name": "UConn",
+                "seed": 8
+              },
+              "team2": {
+                "name": "Oklahoma",
+                "seed": 9
+              }
+            },
+            {
+              "team1": {
+                "name": "Memphis",
+                "seed": 5
+              },
+              "team2": {
+                "name": "Colorado St",
+                "seed": 12
+              }
+            },
+            {
+              "team1": {
+                "name": "Maryland",
+                "seed": 4
+              },
+              "team2": {
+                "name": "Grand Canyon",
+                "seed": 13
+              }
+            },
+            {
+              "team1": {
+                "name": "Missouri",
+                "seed": 6
+              },
+              "team2": {
+                "name": "Drake",
+                "seed": 11
+              }
+            },
+            {
+              "team1": {
+                "name": "Texas Tech",
+                "seed": 3
+              },
+              "team2": {
+                "name": "UNC Wilmington",
+                "seed": 14
+              }
+            },
+            {
+              "team1": {
+                "name": "Kansas",
+                "seed": 7
+              },
+              "team2": {
+                "name": "Arkansas",
+                "seed": 10
+              }
+            },
+            {
+              "team1": {
+                "name": "St John's",
+                "seed": 2
+              },
+              "team2": {
+                "name": "Omaha",
+                "seed": 15
+              }
+            }
+          ],
+          "2": [
+            {
+              "winner_of": 0
+            },
+            {
+              "winner_of": 1
+            },
+            {
+              "winner_of": 2
+            },
+            {
+              "winner_of": 3
+            }
+          ],
+          "3": [
+            {
+              "winner_of": 0
+            },
+            {
+              "winner_of": 1
+            }
+          ],
+          "4": [
+            {
+              "winner_of": 0
+            }
+          ]
+        }
+      },
+      "East": {
+        "rounds": {
+          "1": [
+            {
+              "team1": {
+                "name": "Duke",
+                "seed": 1
+              },
+              "team2": {
+                "name": "Mount St. Mary's",
+                "seed": 16
+              }
+            },
+            {
+              "team1": {
+                "name": "Mississippi St",
+                "seed": 8
+              },
+              "team2": {
+                "name": "Baylor",
+                "seed": 9
+              }
+            },
+            {
+              "team1": {
+                "name": "Oregon",
+                "seed": 5
+              },
+              "team2": {
+                "name": "Liberty",
+                "seed": 12
+              }
+            },
+            {
+              "team1": {
+                "name": "Arizona",
+                "seed": 4
+              },
+              "team2": {
+                "name": "Akron",
+                "seed": 13
+              }
+            },
+            {
+              "team1": {
+                "name": "BYU",
+                "seed": 6
+              },
+              "team2": {
+                "name": "VCU",
+                "seed": 11
+              }
+            },
+            {
+              "team1": {
+                "name": "Wisconsin",
+                "seed": 3
+              },
+              "team2": {
+                "name": "Montana",
+                "seed": 14
+              }
+            },
+            {
+              "team1": {
+                "name": "Saint Mary's",
+                "seed": 7
+              },
+              "team2": {
+                "name": "Vanderbilt",
+                "seed": 10
+              }
+            },
+            {
+              "team1": {
+                "name": "Alabama",
+                "seed": 2
+              },
+              "team2": {
+                "name": "Robert Morris",
+                "seed": 15
+              }
+            }
+          ],
+          "2": [
+            {
+              "winner_of": 0
+            },
+            {
+              "winner_of": 1
+            },
+            {
+              "winner_of": 2
+            },
+            {
+              "winner_of": 3
+            }
+          ],
+          "3": [
+            {
+              "winner_of": 0
+            },
+            {
+              "winner_of": 1
+            }
+          ],
+          "4": [
+            {
+              "winner_of": 0
+            }
+          ]
+        }
+      },
+      "Midwest": {
+        "rounds": {
+          "1": [
+            {
+              "team1": {
+                "name": "Houston",
+                "seed": 1
+              },
+              "team2": {
+                "name": "SIUE",
+                "seed": 16
+              }
+            },
+            {
+              "team1": {
+                "name": "Gonzaga",
+                "seed": 8
+              },
+              "team2": {
+                "name": "Georgia",
+                "seed": 9
+              }
+            },
+            {
+              "team1": {
+                "name": "Clemson",
+                "seed": 5
+              },
+              "team2": {
+                "name": "McNeese",
+                "seed": 12
+              }
+            },
+            {
+              "team1": {
+                "name": "Purdue",
+                "seed": 4
+              },
+              "team2": {
+                "name": "High Point",
+                "seed": 13
+              }
+            },
+            {
+              "team1": {
+                "name": "Illinois",
+                "seed": 6
+              },
+              "team2": {
+                "name": "Xavier",
+                "seed": 11
+              }
+            },
+            {
+              "team1": {
+                "name": "Kentucky",
+                "seed": 3
+              },
+              "team2": {
+                "name": "Troy",
+                "seed": 14
+              }
+            },
+            {
+              "team1": {
+                "name": "UCLA",
+                "seed": 7
+              },
+              "team2": {
+                "name": "Utah State",
+                "seed": 10
+              }
+            },
+            {
+              "team1": {
+                "name": "Tennessee",
+                "seed": 2
+              },
+              "team2": {
+                "name": "Wofford",
+                "seed": 15
+              }
+            }
+          ],
+          "2": [
+            {
+              "winner_of": 0
+            },
+            {
+              "winner_of": 1
+            },
+            {
+              "winner_of": 2
+            },
+            {
+              "winner_of": 3
+            }
+          ],
+          "3": [
+            {
+              "winner_of": 0
+            },
+            {
+              "winner_of": 1
+            }
+          ],
+          "4": [
+            {
+              "winner_of": 0
+            }
+          ]
+        }
+      }
+    },
+    "final_four": {
+      "semifinals": [
+        {
+          "team1_region": "East",
+          "team2_region": "West"
+        },
+        {
+          "team1_region": "South",
+          "team2_region": "Midwest"
+        }
+      ],
+      "championship": {}
+    }
+  },
+  "results": {
+    "rounds": {},
+    "champion": null,
+    "final_four": []
+  }
+}
