@@ -31,7 +31,7 @@ AVAILABLE_MODELS = {
     },
     "deepseek": {
         "name": "DeepSeek-R1",
-        "model_id": "deepseek.deepseek-coder-v1:0",
+        "model_id": "arn:aws:bedrock:us-east-1:273034491939:inference-profile/us.deepseek.r1-v1:0",
     },
     "jamba": {
         "name": "Jamba 1.5 Large",
