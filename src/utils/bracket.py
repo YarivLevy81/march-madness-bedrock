@@ -202,9 +202,10 @@ class Bracket:
         ]
         
         # Create empty structures for later rounds
-        second_round = [{"winner_of": 0}, {"winner_of": 1}, {"winner_of": 2}, {"winner_of": 3}]
-        sweet_16 = [{"winner_of": 0}, {"winner_of": 1}]
-        elite_8 = [{"winner_of": 0}]
+        # These are just placeholders as we now use a different approach to determine matchups
+        second_round = [{}, {}, {}, {}]
+        sweet_16 = [{}, {}]
+        elite_8 = [{}]
         
         return {
             "rounds": {
@@ -265,39 +266,44 @@ class Bracket:
             else:
                 # Later rounds reference winners of previous matchups
                 prev_round_results = self.results["rounds"][prev_round_key]
-                winner_idx = matchup.get("winner_of", 0)
                 
-                # Find the relevant previous matchup result
-                prev_matchup_result = None
+                # Calculate the indices of the two previous matchups that feed into this one
+                # For round 2: matchup 0 gets winners from previous matchups 0 and 1
+                #              matchup 1 gets winners from previous matchups 2 and 3
+                # For round 3: matchup 0 gets winners from previous matchups 0 and 1
+                # For round 4: matchup 0 gets winners from previous matchups 0 and 1
+                prev_idx1 = i * 2
+                prev_idx2 = i * 2 + 1
+                
+                # Find the first previous matchup result
+                prev_matchup_result1 = None
                 for result in prev_round_results:
                     if (result["region"] == region_name and 
-                        result["matchup_index"] == winner_idx and
+                        result["matchup_index"] == prev_idx1 and
                         result["round"] == round_num - 1):
-                        prev_matchup_result = result
+                        prev_matchup_result1 = result
                         break
                 
-                if not prev_matchup_result:
-                    print(f"Error: Could not find previous matchup result for {region_name} round {round_num} matchup {i}")
+                if not prev_matchup_result1:
+                    print(f"Error: Could not find previous matchup result for {region_name} round {round_num} matchup {i}, previous index {prev_idx1}")
+                    continue
+                
+                # Find the second previous matchup result
+                prev_matchup_result2 = None
+                for result in prev_round_results:
+                    if (result["region"] == region_name and 
+                        result["matchup_index"] == prev_idx2 and
+                        result["round"] == round_num - 1):
+                        prev_matchup_result2 = result
+                        break
+                
+                if not prev_matchup_result2:
+                    print(f"Error: Could not find previous matchup result for {region_name} round {round_num} matchup {i}, previous index {prev_idx2}")
                     continue
                 
                 # Get the teams for this matchup
-                team1 = prev_matchup_result["winner"]
-                
-                # Find the next matchup result
-                next_winner_idx = winner_idx + 1 if winner_idx % 2 == 0 else winner_idx - 1
-                next_prev_matchup_result = None
-                for result in prev_round_results:
-                    if (result["region"] == region_name and 
-                        result["matchup_index"] == next_winner_idx and
-                        result["round"] == round_num - 1):
-                        next_prev_matchup_result = result
-                        break
-                
-                if not next_prev_matchup_result:
-                    print(f"Error: Could not find next previous matchup result for {region_name} round {round_num} matchup {i}")
-                    continue
-                
-                team2 = next_prev_matchup_result["winner"]
+                team1 = prev_matchup_result1["winner"]
+                team2 = prev_matchup_result2["winner"]
             
             # Predict winner
             print(f"    Matchup: {team1['name']} (Seed {team1['seed']}) vs {team2['name']} (Seed {team2['seed']})")
