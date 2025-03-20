@@ -279,11 +279,16 @@ class Bracket:
             
             winner_name = prediction["prediction"].strip()
             
-            # Determine winner based on prediction
-            if team1["name"].lower() in winner_name.lower():
+            # Normalize team names for comparison
+            team1_normalized = self._normalize_team_name(team1["name"])
+            team2_normalized = self._normalize_team_name(team2["name"])
+            winner_normalized = self._normalize_team_name(winner_name)
+            
+            # Determine winner based on normalized prediction
+            if team1_normalized in winner_normalized or winner_normalized in team1_normalized:
                 winner = team1
                 winner_region = team1_region
-            elif team2["name"].lower() in winner_name.lower():
+            elif team2_normalized in winner_normalized or winner_normalized in team2_normalized:
                 winner = team2
                 winner_region = team2_region
             else:
@@ -295,6 +300,33 @@ class Bracket:
         
         return winner, winner_region, prediction
     
+    def _normalize_team_name(self, team_name):
+        """
+        Normalize team name for more robust matching.
+        
+        Args:
+            team_name (str): Team name to normalize
+            
+        Returns:
+            str: Normalized team name
+        """
+        # Convert to lowercase
+        normalized = team_name.lower()
+        
+        # Replace common abbreviations
+        normalized = normalized.replace("st.", "st")
+        normalized = normalized.replace("st ", "st")
+        
+        # Remove apostrophes and periods
+        normalized = normalized.replace("'", "")
+        normalized = normalized.replace(".", "")
+        
+        # Remove other special characters and extra spaces
+        normalized = ''.join(c for c in normalized if c.isalnum() or c.isspace())
+        normalized = ' '.join(normalized.split())
+        
+        return normalized
+        
     def _process_region_round(self, round_num, region_name, agent):
         """
         Process a single round within a region.
