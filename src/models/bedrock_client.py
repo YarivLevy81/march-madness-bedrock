@@ -127,14 +127,17 @@ class BedrockClient:
             
         elif self.provider == "mistral":
             # Mistral format
+            # For Mistral models, prepend system prompt to the user prompt instead of using system parameter
+            if system_prompt:
+                full_prompt = f"{system_prompt}\n\n{prompt}"
+            else:
+                full_prompt = prompt
+                
             request = {
-                "prompt": prompt,
+                "prompt": full_prompt,
                 "max_tokens": max_tokens,
                 "temperature": temperature
             }
-            
-            if system_prompt:
-                request["system"] = system_prompt
                 
             return request
             

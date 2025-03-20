@@ -5,6 +5,7 @@ Bracket module for managing NCAA tournament bracket structure and generation.
 import os
 import json
 import copy
+import time
 from datetime import datetime
 
 class Bracket:
@@ -242,6 +243,58 @@ class Bracket:
             print("  Processing Championship game...")
             self._process_championship(agent)
     
+    def _predict_winner_with_retry(self, team1, team2, round_num, agent, team1_region=None, team2_region=None):
+        """
+        Predict winner with retry logic and exponential backoff.
+        
+        Args:
+            team1 (dict): First team
+            team2 (dict): Second team
+            round_num (int): Tournament round number
+            agent (BracketAgent): Agent to use for predictions
+            team1_region (str, optional): Region of team1 (for Final Four and Championship)
+            team2_region (str, optional): Region of team2 (for Final Four and Championship)
+            
+        Returns:
+            tuple: (winner, winner_region, prediction) - winner is the winning team dict,
+                  winner_region is the region (only for Final Four and Championship),
+                  prediction is the full prediction dict from the agent
+        """
+        max_attempts = 5
+        attempts = 0
+        winner = None
+        winner_region = None
+        prediction = agent.predict_winner(team1, team2, round_num)
+        
+        while attempts < max_attempts and winner is None:
+            attempts += 1
+            
+            # Only retry after the first attempt
+            if attempts > 1:
+                # Exponential backoff: wait time increases with each attempt
+                backoff_time = 0.5 * (2 ** (attempts - 2))  # 0.5, 1, 2, 4 seconds
+                print(f"      Retry attempt {attempts} for prediction (waiting {backoff_time:.1f}s)...")
+                time.sleep(backoff_time)
+                prediction = agent.predict_winner(team1, team2, round_num)
+            
+            winner_name = prediction["prediction"].strip()
+            
+            # Determine winner based on prediction
+            if team1["name"].lower() in winner_name.lower():
+                winner = team1
+                winner_region = team1_region
+            elif team2["name"].lower() in winner_name.lower():
+                winner = team2
+                winner_region = team2_region
+            else:
+                if attempts < max_attempts:
+                    print(f"      Could not determine winner from prediction '{winner_name}'. Retrying...")
+                else:
+                    print(f"      Failed to determine winner after {max_attempts} attempts. Failing process.")
+                    raise ValueError(f"Failed to determine winner for {team1['name']} vs {team2['name']} after {max_attempts} attempts")
+        
+        return winner, winner_region, prediction
+    
     def _process_region_round(self, round_num, region_name, agent):
         """
         Process a single round within a region.
@@ -305,34 +358,9 @@ class Bracket:
                 team1 = prev_matchup_result1["winner"]
                 team2 = prev_matchup_result2["winner"]
             
-            # Predict winner
+            # Predict winner with retry logic
             print(f"    Matchup: {team1['name']} (Seed {team1['seed']}) vs {team2['name']} (Seed {team2['seed']})")
-            prediction = agent.predict_winner(team1, team2, round_num)
-            
-            # Extract winner with retry logic
-            max_attempts = 3
-            attempts = 0
-            winner = None
-            
-            while attempts < max_attempts and winner is None:
-                attempts += 1
-                if attempts > 1:
-                    print(f"      Retry attempt {attempts} for prediction...")
-                    prediction = agent.predict_winner(team1, team2, round_num)
-                
-                winner_name = prediction["prediction"].strip()
-                
-                # Determine winner based on prediction
-                if team1["name"].lower() in winner_name.lower():
-                    winner = team1
-                elif team2["name"].lower() in winner_name.lower():
-                    winner = team2
-                else:
-                    if attempts < max_attempts:
-                        print(f"      Could not determine winner from prediction '{winner_name}'. Retrying...")
-                    else:
-                        print(f"      Failed to determine winner after {max_attempts} attempts. Failing process.")
-                        raise ValueError(f"Failed to determine winner for {team1['name']} vs {team2['name']} after {max_attempts} attempts")
+            winner, _, prediction = self._predict_winner_with_retry(team1, team2, round_num, agent)
             
             print(f"      Winner: {winner['name']} (Seed {winner['seed']})")
             print(f"      Reasoning: {prediction['reasoning'][:100]}...")
@@ -384,37 +412,11 @@ class Bracket:
                 print(f"Error: Missing Final Four team for {team1_region} vs {team2_region}")
                 continue
             
-            # Predict winner
+            # Predict winner with retry logic
             print(f"    Matchup: {team1['name']} ({team1_region}) vs {team2['name']} ({team2_region})")
-            prediction = agent.predict_winner(team1, team2, 5)
-            
-            # Extract winner with retry logic
-            max_attempts = 3
-            attempts = 0
-            winner = None
-            winner_region = None
-            
-            while attempts < max_attempts and winner is None:
-                attempts += 1
-                if attempts > 1:
-                    print(f"      Retry attempt {attempts} for prediction...")
-                    prediction = agent.predict_winner(team1, team2, 5)
-                
-                winner_name = prediction["prediction"].strip()
-                
-                # Determine winner based on prediction
-                if team1["name"].lower() in winner_name.lower():
-                    winner = team1
-                    winner_region = team1_region
-                elif team2["name"].lower() in winner_name.lower():
-                    winner = team2
-                    winner_region = team2_region
-                else:
-                    if attempts < max_attempts:
-                        print(f"      Could not determine winner from prediction '{winner_name}'. Retrying...")
-                    else:
-                        print(f"      Failed to determine winner after {max_attempts} attempts. Failing process.")
-                        raise ValueError(f"Failed to determine winner for {team1['name']} vs {team2['name']} after {max_attempts} attempts")
+            winner, winner_region, prediction = self._predict_winner_with_retry(
+                team1, team2, 5, agent, team1_region, team2_region
+            )
             
             print(f"      Winner: {winner['name']} ({winner_region})")
             print(f"      Reasoning: {prediction['reasoning'][:100]}...")
@@ -474,37 +476,11 @@ class Bracket:
             print(f"Error: Missing championship team for {team1_region} vs {team2_region}")
             return
         
-        # Predict winner
+        # Predict winner with retry logic
         print(f"    Championship: {team1['name']} ({team1_region}) vs {team2['name']} ({team2_region})")
-        prediction = agent.predict_winner(team1, team2, 6)
-        
-        # Extract winner with retry logic
-        max_attempts = 3
-        attempts = 0
-        winner = None
-        winner_region = None
-        
-        while attempts < max_attempts and winner is None:
-            attempts += 1
-            if attempts > 1:
-                print(f"      Retry attempt {attempts} for prediction...")
-                prediction = agent.predict_winner(team1, team2, 6)
-            
-            winner_name = prediction["prediction"].strip()
-            
-            # Determine winner based on prediction
-            if team1["name"].lower() in winner_name.lower():
-                winner = team1
-                winner_region = team1_region
-            elif team2["name"].lower() in winner_name.lower():
-                winner = team2
-                winner_region = team2_region
-            else:
-                if attempts < max_attempts:
-                    print(f"      Could not determine winner from prediction '{winner_name}'. Retrying...")
-                else:
-                    print(f"      Failed to determine winner after {max_attempts} attempts. Failing process.")
-                    raise ValueError(f"Failed to determine winner for {team1['name']} vs {team2['name']} after {max_attempts} attempts")
+        winner, winner_region, prediction = self._predict_winner_with_retry(
+            team1, team2, 6, agent, team1_region, team2_region
+        )
         
         print(f"      Champion: {winner['name']} ({winner_region})")
         print(f"      Reasoning: {prediction['reasoning'][:100]}...")
