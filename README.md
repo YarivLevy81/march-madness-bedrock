@@ -8,7 +8,6 @@ This project tests different Amazon Bedrock models to determine which is best at
 - **Llama 3.3 70B Instruct** (meta.llama3-70b-instruct-v1:0)
 - **Mistral Large (24.02)** (mistral.mistral-large-2402-v1:0)
 - **DeepSeek-R1** (deepseek.deepseek-coder-v1:0)
-- **Jamba 1.5 Large** (ai21.jamba-1-5-large-v1:0)
 
 ## Features
 
