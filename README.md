@@ -76,7 +76,6 @@ Additional tools:
 .
 ├── main.py                 # Main script to run the bracket generation
 ├── requirements.txt        # Python dependencies
-├── .env.template           # Template for AWS credentials
 ├── setup.py                # Setup script for the project
 ├── run_single_model.py     # Script to run a single model
 ├── compare_models.py       # Script to compare model predictions
@@ -89,8 +88,6 @@ Additional tools:
 │   ├── utils/
 │   │   ├── bracket.py      # Bracket structure and generation
 │   │   └── stats_retriever.py # Team statistics retrieval
-│   ├── scripts/
-│   │   └── scrape_espn_stats.py # Script to scrape ESPN statistics
 │   └── data/               # Directory for data files
 ├── tests/                  # Test directory
 │   ├── test_setup.py       # Tests for project setup
@@ -120,7 +117,6 @@ Additional tools:
 
 - **Team Data**: The system loads team statistics from JSON files in the `src/data/team_stats/` directory.
   - You can add or modify team statistics by editing these files
-  - Run `src/scripts/scrape_espn_stats.py` to fetch the latest statistics from ESPN
 - **Model Parameters**: Adjust temperature and other parameters in `src/models/bedrock_client.py`.
 - **Prompt Engineering**: Modify the system prompt in `src/models/agent.py` to improve prediction quality.
 - **Testing**: Run tests using the scripts in the `tests/` directory to verify functionality.
