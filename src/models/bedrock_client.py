@@ -111,15 +111,18 @@ class BedrockClient:
             
         elif self.provider == "meta":
             # Llama format
+            # For Llama models, prepend system prompt to the user prompt instead of using system_prompt parameter
+            if system_prompt:
+                full_prompt = f"{system_prompt}\n\n{prompt}"
+            else:
+                full_prompt = prompt
+                
             request = {
-                "prompt": prompt,
+                "prompt": full_prompt,
                 "max_gen_len": max_tokens,
                 "temperature": temperature
             }
             
-            if system_prompt:
-                request["system_prompt"] = system_prompt
-                
             return request
             
         elif self.provider == "mistral":
