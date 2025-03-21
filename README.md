@@ -2,6 +2,8 @@
 
 This project tests different Amazon Bedrock models to determine which is best at predicting NCAA March Madness tournament outcomes for 2025. The system uses an agent-based approach where each model picks winners game by game, with access to team statistics to inform decisions.
 
+Blog: https://medium.com/@yarivlevy81/bracket-battle-royale-amazon-bedrock-llms-duke-it-out-for-march-madness-glory-0c9376670ea5
+
 ![NCAA March Madness Bracket](bracket.jpg)
 
 ## Models Tested
