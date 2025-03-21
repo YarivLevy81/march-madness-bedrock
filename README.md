@@ -7,7 +7,7 @@ This project tests different Amazon Bedrock models to determine which is best at
 - **Claude 3.7 Sonnet** (anthropic.claude-3-7-sonnet-20240620-v1:0)
 - **Llama 3.3 70B Instruct** (meta.llama3-70b-instruct-v1:0)
 - **Mistral Large (24.02)** (mistral.mistral-large-2402-v1:0)
-- **DeepSeek-R1** (deepseek.deepseek-coder-v1:0)
+- **Amazon Nova Pro** (amazon.nova-pro-v1:0)
 
 ## Features
 
@@ -62,7 +62,7 @@ To test a single model:
 python run_single_model.py claude
 ```
 
-Available model options: `claude`, `llama`, `mistral`, `deepseek`, `jamba`
+Available model options: `claude`, `llama`, `mistral`, `nova`
 
 Additional tools:
 - `python visualize_results.py` - View bracket results in text format
