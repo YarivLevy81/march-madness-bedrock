@@ -15,7 +15,9 @@ Bracket Results:
 ## Championship: 
 
 Duke (Seed 1) vs Houston (Seed 1) -> Duke
+
 Reasoning: 
+
 This matchup presents a classic offense vs. defense confrontation. Duke brings an elite, efficient offense that scores from all levels, while Houston counters with arguably the nation's best defense and a physical, possession-oriented style.
 Houston's path to victory relies on:
 1. Disrupting Duke's offensive flow with their elite perimeter defense
