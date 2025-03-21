@@ -29,13 +29,9 @@ AVAILABLE_MODELS = {
         "name": "Mistral Large",
         "model_id": "mistral.mistral-large-2402-v1:0",
     },
-    "deepseek": {
-        "name": "DeepSeek-R1",
-        "model_id": "arn:aws:bedrock:us-east-1:273034491939:inference-profile/us.deepseek.r1-v1:0",
-    },
-    "jamba": {
-        "name": "Jamba 1.5 Large",
-        "model_id": "ai21.jamba-1-5-large-v1:0",
+    "nova": {
+        "name": "Amazon Nova Pro",
+        "model_id": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0:300k",
     }
 }
 

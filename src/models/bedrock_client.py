@@ -47,10 +47,8 @@ class BedrockClient:
             self.provider = "meta"
         elif "mistral" in self.model_id:
             self.provider = "mistral"
-        elif "deepseek" in self.model_id:
-            self.provider = "deepseek"
-        elif "ai21" in self.model_id:
-            self.provider = "ai21"
+        elif "amazon" in self.model_id:
+            self.provider = "amazon"
         else:
             # Default fallback
             self.provider = self.model_id.split(".")[0]
@@ -106,6 +104,24 @@ class BedrockClient:
             
             if system_prompt:
                 request["system"] = system_prompt
+                
+            return request
+            
+        elif self.provider == "amazon":
+            # Amazon Nova format
+            request = {
+                "inputText": prompt,
+                "textGenerationConfig": {
+                    "maxTokenCount": max_tokens,
+                    "temperature": temperature,
+                    "stopSequences": []
+                }
+            }
+            
+            if system_prompt:
+                # For Nova, prepend system prompt to the user prompt
+                full_prompt = f"{system_prompt}\n\n{prompt}"
+                request["inputText"] = full_prompt
                 
             return request
             
@@ -195,6 +211,10 @@ class BedrockClient:
         if self.provider == "anthropic":
             # Claude response format
             return response_body.get("content", [{}])[0].get("text", "")
+            
+        elif self.provider == "amazon":
+            # Amazon Nova response format
+            return response_body.get("results", [{}])[0].get("outputText", "")
             
         elif self.provider == "meta":
             # Llama response format
