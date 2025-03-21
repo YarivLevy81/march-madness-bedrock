@@ -1,0 +1,1773 @@
+{
+  "bracket": {
+    "year": 2025,
+    "structure": {
+      "regions": {
+        "South": {
+          "rounds": {
+            "1": [
+              {
+                "team1": {
+                  "name": "Auburn",
+                  "seed": 1
+                },
+                "team2": {
+                  "name": "Alabama St",
+                  "seed": 16
+                }
+              },
+              {
+                "team1": {
+                  "name": "Louisville",
+                  "seed": 8
+                },
+                "team2": {
+                  "name": "Creighton",
+                  "seed": 9
+                }
+              },
+              {
+                "team1": {
+                  "name": "Michigan",
+                  "seed": 5
+                },
+                "team2": {
+                  "name": "UC San Diego",
+                  "seed": 12
+                }
+              },
+              {
+                "team1": {
+                  "name": "Texas A&M",
+                  "seed": 4
+                },
+                "team2": {
+                  "name": "Yale",
+                  "seed": 13
+                }
+              },
+              {
+                "team1": {
+                  "name": "Ole Miss",
+                  "seed": 6
+                },
+                "team2": {
+                  "name": "North Carolina",
+                  "seed": 11
+                }
+              },
+              {
+                "team1": {
+                  "name": "Iowa State",
+                  "seed": 3
+                },
+                "team2": {
+                  "name": "Lipscomb",
+                  "seed": 14
+                }
+              },
+              {
+                "team1": {
+                  "name": "Marquette",
+                  "seed": 7
+                },
+                "team2": {
+                  "name": "New Mexico",
+                  "seed": 10
+                }
+              },
+              {
+                "team1": {
+                  "name": "Michigan St",
+                  "seed": 2
+                },
+                "team2": {
+                  "name": "Bryant",
+                  "seed": 15
+                }
+              }
+            ],
+            "2": [
+              {
+                "winner_of": 0
+              },
+              {
+                "winner_of": 1
+              },
+              {
+                "winner_of": 2
+              },
+              {
+                "winner_of": 3
+              }
+            ],
+            "3": [
+              {
+                "winner_of": 0
+              },
+              {
+                "winner_of": 1
+              }
+            ],
+            "4": [
+              {
+                "winner_of": 0
+              }
+            ]
+          }
+        },
+        "West": {
+          "rounds": {
+            "1": [
+              {
+                "team1": {
+                  "name": "Florida",
+                  "seed": 1
+                },
+                "team2": {
+                  "name": "Norfolk St",
+                  "seed": 16
+                }
+              },
+              {
+                "team1": {
+                  "name": "UConn",
+                  "seed": 8
+                },
+                "team2": {
+                  "name": "Oklahoma",
+                  "seed": 9
+                }
+              },
+              {
+                "team1": {
+                  "name": "Memphis",
+                  "seed": 5
+                },
+                "team2": {
+                  "name": "Colorado St",
+                  "seed": 12
+                }
+              },
+              {
+                "team1": {
+                  "name": "Maryland",
+                  "seed": 4
+                },
+                "team2": {
+                  "name": "Grand Canyon",
+                  "seed": 13
+                }
+              },
+              {
+                "team1": {
+                  "name": "Missouri",
+                  "seed": 6
+                },
+                "team2": {
+                  "name": "Drake",
+                  "seed": 11
+                }
+              },
+              {
+                "team1": {
+                  "name": "Texas Tech",
+                  "seed": 3
+                },
+                "team2": {
+                  "name": "UNC Wilmington",
+                  "seed": 14
+                }
+              },
+              {
+                "team1": {
+                  "name": "Kansas",
+                  "seed": 7
+                },
+                "team2": {
+                  "name": "Arkansas",
+                  "seed": 10
+                }
+              },
+              {
+                "team1": {
+                  "name": "St John's",
+                  "seed": 2
+                },
+                "team2": {
+                  "name": "Omaha",
+                  "seed": 15
+                }
+              }
+            ],
+            "2": [
+              {
+                "winner_of": 0
+              },
+              {
+                "winner_of": 1
+              },
+              {
+                "winner_of": 2
+              },
+              {
+                "winner_of": 3
+              }
+            ],
+            "3": [
+              {
+                "winner_of": 0
+              },
+              {
+                "winner_of": 1
+              }
+            ],
+            "4": [
+              {
+                "winner_of": 0
+              }
+            ]
+          }
+        },
+        "East": {
+          "rounds": {
+            "1": [
+              {
+                "team1": {
+                  "name": "Duke",
+                  "seed": 1
+                },
+                "team2": {
+                  "name": "Mount St. Mary's",
+                  "seed": 16
+                }
+              },
+              {
+                "team1": {
+                  "name": "Mississippi St",
+                  "seed": 8
+                },
+                "team2": {
+                  "name": "Baylor",
+                  "seed": 9
+                }
+              },
+              {
+                "team1": {
+                  "name": "Oregon",
+                  "seed": 5
+                },
+                "team2": {
+                  "name": "Liberty",
+                  "seed": 12
+                }
+              },
+              {
+                "team1": {
+                  "name": "Arizona",
+                  "seed": 4
+                },
+                "team2": {
+                  "name": "Akron",
+                  "seed": 13
+                }
+              },
+              {
+                "team1": {
+                  "name": "BYU",
+                  "seed": 6
+                },
+                "team2": {
+                  "name": "VCU",
+                  "seed": 11
+                }
+              },
+              {
+                "team1": {
+                  "name": "Wisconsin",
+                  "seed": 3
+                },
+                "team2": {
+                  "name": "Montana",
+                  "seed": 14
+                }
+              },
+              {
+                "team1": {
+                  "name": "Saint Mary's",
+                  "seed": 7
+                },
+                "team2": {
+                  "name": "Vanderbilt",
+                  "seed": 10
+                }
+              },
+              {
+                "team1": {
+                  "name": "Alabama",
+                  "seed": 2
+                },
+                "team2": {
+                  "name": "Robert Morris",
+                  "seed": 15
+                }
+              }
+            ],
+            "2": [
+              {
+                "winner_of": 0
+              },
+              {
+                "winner_of": 1
+              },
+              {
+                "winner_of": 2
+              },
+              {
+                "winner_of": 3
+              }
+            ],
+            "3": [
+              {
+                "winner_of": 0
+              },
+              {
+                "winner_of": 1
+              }
+            ],
+            "4": [
+              {
+                "winner_of": 0
+              }
+            ]
+          }
+        },
+        "Midwest": {
+          "rounds": {
+            "1": [
+              {
+                "team1": {
+                  "name": "Houston",
+                  "seed": 1
+                },
+                "team2": {
+                  "name": "SIUE",
+                  "seed": 16
+                }
+              },
+              {
+                "team1": {
+                  "name": "Gonzaga",
+                  "seed": 8
+                },
+                "team2": {
+                  "name": "Georgia",
+                  "seed": 9
+                }
+              },
+              {
+                "team1": {
+                  "name": "Clemson",
+                  "seed": 5
+                },
+                "team2": {
+                  "name": "McNeese",
+                  "seed": 12
+                }
+              },
+              {
+                "team1": {
+                  "name": "Purdue",
+                  "seed": 4
+                },
+                "team2": {
+                  "name": "High Point",
+                  "seed": 13
+                }
+              },
+              {
+                "team1": {
+                  "name": "Illinois",
+                  "seed": 6
+                },
+                "team2": {
+                  "name": "Xavier",
+                  "seed": 11
+                }
+              },
+              {
+                "team1": {
+                  "name": "Kentucky",
+                  "seed": 3
+                },
+                "team2": {
+                  "name": "Troy",
+                  "seed": 14
+                }
+              },
+              {
+                "team1": {
+                  "name": "UCLA",
+                  "seed": 7
+                },
+                "team2": {
+                  "name": "Utah State",
+                  "seed": 10
+                }
+              },
+              {
+                "team1": {
+                  "name": "Tennessee",
+                  "seed": 2
+                },
+                "team2": {
+                  "name": "Wofford",
+                  "seed": 15
+                }
+              }
+            ],
+            "2": [
+              {
+                "winner_of": 0
+              },
+              {
+                "winner_of": 1
+              },
+              {
+                "winner_of": 2
+              },
+              {
+                "winner_of": 3
+              }
+            ],
+            "3": [
+              {
+                "winner_of": 0
+              },
+              {
+                "winner_of": 1
+              }
+            ],
+            "4": [
+              {
+                "winner_of": 0
+              }
+            ]
+          }
+        }
+      },
+      "final_four": {
+        "semifinals": [
+          {
+            "team1_region": "East",
+            "team2_region": "West"
+          },
+          {
+            "team1_region": "South",
+            "team2_region": "Midwest"
+          }
+        ],
+        "championship": {
+          "team1_region": "East",
+          "team2_region": "South"
+        }
+      }
+    },
+    "results": {
+      "rounds": {
+        "1": [
+          {
+            "round": 1,
+            "region": "South",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Alabama St",
+              "seed": 16
+            },
+            "winner": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "reasoning": "Auburn's significant advantages in scoring, rebounding, and defensive efficiency give them a strong edge in this matchup. Their ability to control the tempo and dominate the boards will make it difficult for Alabama St to keep up. Additionally, Auburn's experience as a top seed will help them navigate the pressure of the tournament.",
+            "analysis": "Auburn, the number one seed, boasts an impressive offense, scoring 83.80 points per game, with a strong field goal percentage of 0.48 and a decent three-point shooting percentage of 0.37. They also have a significant rebounding advantage, grabbing 37.10 rebounds per game compared to Alabama St's 36.20. On the defensive end, Auburn holds opponents to 69.60 points per game, with a respectable opponent field goal percentage of 0.41.\n        \n        Alabama St, on the other hand, has a more modest offense, scoring 73.30 points per game, with a lower field goal percentage of 0.41 and a similar three-point shooting percentage of 0.33. They have a slight advantage in opponent rebounds per game, but their defense allows 72.10 points per game, with an opponent field goal percentage of 0.41.",
+            "raw_prediction": "\n\n\n        ANALYSIS:\n        Auburn, the number one seed, boasts an impressive offense, scoring 83.80 points per game, with a strong field goal percentage of 0.48 and a decent three-point shooting percentage of 0.37. They also have a significant rebounding advantage, grabbing 37.10 rebounds per game compared to Alabama St's 36.20. On the defensive end, Auburn holds opponents to 69.60 points per game, with a respectable opponent field goal percentage of 0.41.\n        \n        Alabama St, on the other hand, has a more modest offense, scoring 73.30 points per game, with a lower field goal percentage of 0.41 and a similar three-point shooting percentage of 0.33. They have a slight advantage in opponent rebounds per game, but their defense allows 72.10 points per game, with an opponent field goal percentage of 0.41.\n        \n        REASONING:\n        Auburn's significant advantages in scoring, rebounding, and defensive efficiency give them a strong edge in this matchup. Their ability to control the tempo and dominate the boards will make it difficult for Alabama St to keep up. Additionally, Auburn's experience as a top seed will help them navigate the pressure of the tournament.\n        \n        PREDICTION:\n        Auburn"
+          },
+          {
+            "round": 1,
+            "region": "South",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Louisville",
+              "seed": 8
+            },
+            "team2": {
+              "name": "Creighton",
+              "seed": 9
+            },
+            "winner": {
+              "name": "Louisville",
+              "seed": 8
+            },
+            "reasoning": "While both teams have their strengths and weaknesses, I believe Louisville has a slight advantage due to their stronger rebounding and slightly better field goal percentage. Additionally, Louisville's ability to limit their opponents' three-point shooting (35% 3Ppct) could be crucial in this matchup, as Creighton relies heavily on their three-point shooting.",
+            "analysis": "Louisville and Creighton have similar statistics in many areas, but there are some key differences. Both teams have strong offenses, with Louisville averaging 78.6 points per game and Creighton averaging 75.2 points per game. However, Louisville has a slight edge in terms of field goal percentage, shooting 45% from the field compared to Creighton's 48%. Creighton, on the other hand, has a stronger three-point shooting percentage, making 37% of their attempts compared to Louisville's 33%. \n\n        Defensively, both teams are relatively even, with Louisville allowing 68.9 points per game and Creighton allowing 69.5 points per game. However, Louisville has a slight edge in terms of rebounding, averaging 37.4 rebounds per game compared to Creighton's 34.8 rebounds per game.",
+            "raw_prediction": "\n\n\n        ANALYSIS:\n        Louisville and Creighton have similar statistics in many areas, but there are some key differences. Both teams have strong offenses, with Louisville averaging 78.6 points per game and Creighton averaging 75.2 points per game. However, Louisville has a slight edge in terms of field goal percentage, shooting 45% from the field compared to Creighton's 48%. Creighton, on the other hand, has a stronger three-point shooting percentage, making 37% of their attempts compared to Louisville's 33%. \n\n        Defensively, both teams are relatively even, with Louisville allowing 68.9 points per game and Creighton allowing 69.5 points per game. However, Louisville has a slight edge in terms of rebounding, averaging 37.4 rebounds per game compared to Creighton's 34.8 rebounds per game.\n\n        REASONING:\n        While both teams have their strengths and weaknesses, I believe Louisville has a slight advantage due to their stronger rebounding and slightly better field goal percentage. Additionally, Louisville's ability to limit their opponents' three-point shooting (35% 3Ppct) could be crucial in this matchup, as Creighton relies heavily on their three-point shooting.\n\n        PREDICTION:\n        Louisville"
+          },
+          {
+            "round": 1,
+            "region": "South",
+            "matchup_index": 2,
+            "team1": {
+              "name": "Michigan",
+              "seed": 5
+            },
+            "team2": {
+              "name": "UC San Diego",
+              "seed": 12
+            },
+            "winner": {
+              "name": "Michigan",
+              "seed": 5
+            },
+            "reasoning": "While both teams have similar statistics, Michigan's strength of schedule and experience in the Big Ten conference give them an advantage. Michigan's ability to rebound and assist on offense will allow them to control the pace of the game and limit UC San Diego's scoring opportunities. Additionally, Michigan's defense has been tested against stronger opponents, which will help them prepare for UC San Diego's offense.",
+            "analysis": "Michigan and UC San Diego have similar statistics, with both teams averaging around 78-79 points per game. Michigan has a slightly better field goal percentage (0.47 vs 0.47), but UC San Diego has a higher three-point shooting percentage (0.37 vs 0.33). Both teams have similar defensive statistics, with Michigan allowing 71.20 points per game and UC San Diego allowing 61.60 points per game. Michigan has a slight advantage in rebounding (38.20 vs 33.90) and assists (16.10 vs 15.90), but UC San Diego has a higher steal rate (9.90 vs 5.50).",
+            "raw_prediction": " \"\"\"\n\nHere is the response:\n\nANALYSIS:\nMichigan and UC San Diego have similar statistics, with both teams averaging around 78-79 points per game. Michigan has a slightly better field goal percentage (0.47 vs 0.47), but UC San Diego has a higher three-point shooting percentage (0.37 vs 0.33). Both teams have similar defensive statistics, with Michigan allowing 71.20 points per game and UC San Diego allowing 61.60 points per game. Michigan has a slight advantage in rebounding (38.20 vs 33.90) and assists (16.10 vs 15.90), but UC San Diego has a higher steal rate (9.90 vs 5.50).\n\nREASONING:\nWhile both teams have similar statistics, Michigan's strength of schedule and experience in the Big Ten conference give them an advantage. Michigan's ability to rebound and assist on offense will allow them to control the pace of the game and limit UC San Diego's scoring opportunities. Additionally, Michigan's defense has been tested against stronger opponents, which will help them prepare for UC San Diego's offense.\n\nPREDICTION:\nMichigan"
+          },
+          {
+            "round": 1,
+            "region": "South",
+            "matchup_index": 3,
+            "team1": {
+              "name": "Texas A&M",
+              "seed": 4
+            },
+            "team2": {
+              "name": "Yale",
+              "seed": 13
+            },
+            "winner": {
+              "name": "Texas A&M",
+              "seed": 4
+            },
+            "reasoning": "While Yale's offense is impressive, Texas A&M's strong defense and rebounding advantage will be crucial in this matchup. Yale's defense has struggled to contain opponents, and Texas A&M's ability to limit scoring opportunities will give them an edge. Additionally, Texas A&M's rebounding prowess will allow them to capitalize on second-chance points, further widening the gap.",
+            "analysis": "Texas A&M and Yale have distinct strengths and weaknesses. Texas A&M boasts a strong defense, allowing only 67.9 points per game, with a respectable 0.40 opponent field goal percentage. They also excel in rebounding, with an average of 41.2 rebounds per game. However, their offense is less impressive, with a 0.42 field goal percentage and 17.4 free throws made per game. Yale, on the other hand, has a potent offense, scoring 81.7 points per game with a 0.49 field goal percentage. They also have a strong three-point shooting percentage of 0.39. However, their defense is vulnerable, allowing 69.7 points per game with a 0.41 opponent field goal percentage.",
+            "raw_prediction": "\n\n\n        ANALYSIS:\n        Texas A&M and Yale have distinct strengths and weaknesses. Texas A&M boasts a strong defense, allowing only 67.9 points per game, with a respectable 0.40 opponent field goal percentage. They also excel in rebounding, with an average of 41.2 rebounds per game. However, their offense is less impressive, with a 0.42 field goal percentage and 17.4 free throws made per game. Yale, on the other hand, has a potent offense, scoring 81.7 points per game with a 0.49 field goal percentage. They also have a strong three-point shooting percentage of 0.39. However, their defense is vulnerable, allowing 69.7 points per game with a 0.41 opponent field goal percentage.\n        \n        REASONING:\n        While Yale's offense is impressive, Texas A&M's strong defense and rebounding advantage will be crucial in this matchup. Yale's defense has struggled to contain opponents, and Texas A&M's ability to limit scoring opportunities will give them an edge. Additionally, Texas A&M's rebounding prowess will allow them to capitalize on second-chance points, further widening the gap.\n        \n        PREDICTION:\n        Texas A&M"
+          },
+          {
+            "round": 1,
+            "region": "South",
+            "matchup_index": 4,
+            "team1": {
+              "name": "Ole Miss",
+              "seed": 6
+            },
+            "team2": {
+              "name": "North Carolina",
+              "seed": 11
+            },
+            "winner": {
+              "name": "North Carolina",
+              "seed": 11
+            },
+            "reasoning": "While Ole Miss has a strong defense, North Carolina's high-powered offense should be able to overcome it. North Carolina's ability to score from both inside and outside the three-point line will make it difficult for Ole Miss to keep up. Additionally, North Carolina's rebounding advantage should give them more opportunities to score.",
+            "analysis": "Ole Miss and North Carolina have similar statistics in many categories, but there are some key differences. Ole Miss has a slightly better defensive efficiency, allowing 71.7 points per game compared to North Carolina's 74.8. However, North Carolina has a higher scoring offense, averaging 81.2 points per game compared to Ole Miss's 77.2. Both teams have similar rebounding and assist numbers, but North Carolina has a slight edge in three-point shooting percentage.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Ole Miss and North Carolina have similar statistics in many categories, but there are some key differences. Ole Miss has a slightly better defensive efficiency, allowing 71.7 points per game compared to North Carolina's 74.8. However, North Carolina has a higher scoring offense, averaging 81.2 points per game compared to Ole Miss's 77.2. Both teams have similar rebounding and assist numbers, but North Carolina has a slight edge in three-point shooting percentage.\n\n        REASONING:\n        While Ole Miss has a strong defense, North Carolina's high-powered offense should be able to overcome it. North Carolina's ability to score from both inside and outside the three-point line will make it difficult for Ole Miss to keep up. Additionally, North Carolina's rebounding advantage should give them more opportunities to score.\n\n        PREDICTION:\n        North Carolina"
+          },
+          {
+            "round": 1,
+            "region": "South",
+            "matchup_index": 5,
+            "team1": {
+              "name": "Iowa State",
+              "seed": 3
+            },
+            "team2": {
+              "name": "Lipscomb",
+              "seed": 14
+            },
+            "winner": {
+              "name": "Iowa State",
+              "seed": 3
+            },
+            "reasoning": "While both teams have similar statistics, Iowa State's slight advantages in points per game, field goal percentage, and rebounding give them an edge in this matchup. Additionally, Iowa State's stronger schedule in the South region may have prepared them better for a tough opponent like Lipscomb.",
+            "analysis": "Iowa State and Lipscomb have similar statistics, but there are some key differences. Iowa State has a slightly higher points per game average (80.40 vs 79.30) and a better field goal percentage (0.48 vs 0.47). However, Lipscomb has a higher three-point shooting percentage (0.36 vs 0.33) and a better free throw shooting percentage (0.79 vs 0.76). Both teams have similar defensive statistics, with Iowa State allowing 68.10 points per game and Lipscomb allowing 67.30 points per game. Iowa State has a slight advantage in rebounding (35.40 vs 35.80) and assists (15.00 vs 15.10).",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nIowa State and Lipscomb have similar statistics, but there are some key differences. Iowa State has a slightly higher points per game average (80.40 vs 79.30) and a better field goal percentage (0.48 vs 0.47). However, Lipscomb has a higher three-point shooting percentage (0.36 vs 0.33) and a better free throw shooting percentage (0.79 vs 0.76). Both teams have similar defensive statistics, with Iowa State allowing 68.10 points per game and Lipscomb allowing 67.30 points per game. Iowa State has a slight advantage in rebounding (35.40 vs 35.80) and assists (15.00 vs 15.10).\n\nREASONING:\nWhile both teams have similar statistics, Iowa State's slight advantages in points per game, field goal percentage, and rebounding give them an edge in this matchup. Additionally, Iowa State's stronger schedule in the South region may have prepared them better for a tough opponent like Lipscomb.\n\nPREDICTION:\nIowa State"
+          },
+          {
+            "round": 1,
+            "region": "South",
+            "matchup_index": 6,
+            "team1": {
+              "name": "Marquette",
+              "seed": 7
+            },
+            "team2": {
+              "name": "New Mexico",
+              "seed": 10
+            },
+            "winner": {
+              "name": "Marquette",
+              "seed": 7
+            },
+            "reasoning": "While New Mexico has a higher scoring average, Marquette's defensive efficiency and slightly better shooting percentages give them an advantage. Marquette's ability to limit their opponents' scoring opportunities will be crucial in this matchup. Additionally, Marquette's experience as a 7-seed will give them an edge in terms of tournament experience.",
+            "analysis": "Marquette and New Mexico have similar statistics, but with some key differences. Marquette has a slightly better field goal percentage (48% vs 46%) and a higher 3-point shooting percentage (37% vs 35%). However, New Mexico has a higher scoring average (81.2 vs 77) and a better free throw shooting percentage (69% vs 74%). Marquette has a slight advantage in defensive efficiency, allowing 68.5 points per game compared to New Mexico's 70.8. Both teams have similar rebounding and assist numbers.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Marquette and New Mexico have similar statistics, but with some key differences. Marquette has a slightly better field goal percentage (48% vs 46%) and a higher 3-point shooting percentage (37% vs 35%). However, New Mexico has a higher scoring average (81.2 vs 77) and a better free throw shooting percentage (69% vs 74%). Marquette has a slight advantage in defensive efficiency, allowing 68.5 points per game compared to New Mexico's 70.8. Both teams have similar rebounding and assist numbers.\n\n        REASONING:\n        While New Mexico has a higher scoring average, Marquette's defensive efficiency and slightly better shooting percentages give them an advantage. Marquette's ability to limit their opponents' scoring opportunities will be crucial in this matchup. Additionally, Marquette's experience as a 7-seed will give them an edge in terms of tournament experience.\n\n        PREDICTION:\n        Marquette"
+          },
+          {
+            "round": 1,
+            "region": "South",
+            "matchup_index": 7,
+            "team1": {
+              "name": "Michigan St",
+              "seed": 2
+            },
+            "team2": {
+              "name": "Bryant",
+              "seed": 15
+            },
+            "winner": {
+              "name": "Michigan St",
+              "seed": 2
+            },
+            "reasoning": "Michigan St's strong defense and rebounding advantage will be crucial in this matchup. Bryant's high-scoring offense might struggle against Michigan St's efficient defense. Additionally, Michigan St's experience and strength of schedule will give them an edge in this game.",
+            "analysis": "Michigan St, the 2nd seed, has a strong defensive presence, allowing only 67.20 points per game, with a respectable defensive field goal percentage of 0.40. They also have a significant rebounding advantage, with 39.80 rebounds per game compared to Bryant's 36.40. Michigan St's offense is efficient, with a field goal percentage of 0.46 and a 3-point shooting percentage of 0.31. On the other hand, Bryant, the 15th seed, has a high-scoring offense, averaging 81.70 points per game, with a strong 3-point shooting percentage of 0.34. However, their defense allows 74.20 points per game, which could be a concern.",
+            "raw_prediction": " \"\"\"\n\nI'll provide the analysis and prediction for the given matchup.\n\nANALYSIS:\nMichigan St, the 2nd seed, has a strong defensive presence, allowing only 67.20 points per game, with a respectable defensive field goal percentage of 0.40. They also have a significant rebounding advantage, with 39.80 rebounds per game compared to Bryant's 36.40. Michigan St's offense is efficient, with a field goal percentage of 0.46 and a 3-point shooting percentage of 0.31. On the other hand, Bryant, the 15th seed, has a high-scoring offense, averaging 81.70 points per game, with a strong 3-point shooting percentage of 0.34. However, their defense allows 74.20 points per game, which could be a concern.\n\nREASONING:\nMichigan St's strong defense and rebounding advantage will be crucial in this matchup. Bryant's high-scoring offense might struggle against Michigan St's efficient defense. Additionally, Michigan St's experience and strength of schedule will give them an edge in this game.\n\nPREDICTION:\nMichigan St"
+          },
+          {
+            "round": 1,
+            "region": "West",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Florida",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Norfolk St",
+              "seed": 16
+            },
+            "winner": {
+              "name": "Florida",
+              "seed": 1
+            },
+            "reasoning": "Florida's strong offense and defense give them a significant advantage over Norfolk State. Florida's ability to score efficiently and rebound effectively will put pressure on Norfolk State's defense, which has struggled to contain opponents. Additionally, Florida's defense has been stingy, allowing fewer points and lower shooting percentages than Norfolk State's defense. This disparity in defensive efficiency will be crucial in a close game.",
+            "analysis": "Florida, the top-seeded team, boasts an impressive offense, scoring 85.40 points per game with a 47% field goal percentage and 35% three-point shooting. They also have a strong rebounding presence, grabbing 42.00 rebounds per game. On the defensive end, they hold opponents to 69.20 points per game with a 40% field goal percentage and 30% three-point shooting. Norfolk State, on the other hand, scores 77.30 points per game with a 49% field goal percentage and 33% three-point shooting. They also have a decent rebounding presence, grabbing 34.70 rebounds per game. However, their defense allows 68.90 points per game with a 42% field goal percentage and 34% three-point shooting.",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nFlorida, the top-seeded team, boasts an impressive offense, scoring 85.40 points per game with a 47% field goal percentage and 35% three-point shooting. They also have a strong rebounding presence, grabbing 42.00 rebounds per game. On the defensive end, they hold opponents to 69.20 points per game with a 40% field goal percentage and 30% three-point shooting. Norfolk State, on the other hand, scores 77.30 points per game with a 49% field goal percentage and 33% three-point shooting. They also have a decent rebounding presence, grabbing 34.70 rebounds per game. However, their defense allows 68.90 points per game with a 42% field goal percentage and 34% three-point shooting.\n\nREASONING:\nFlorida's strong offense and defense give them a significant advantage over Norfolk State. Florida's ability to score efficiently and rebound effectively will put pressure on Norfolk State's defense, which has struggled to contain opponents. Additionally, Florida's defense has been stingy, allowing fewer points and lower shooting percentages than Norfolk State's defense. This disparity in defensive efficiency will be crucial in a close game.\n\nPREDICTION:\nFlorida"
+          },
+          {
+            "round": 1,
+            "region": "West",
+            "matchup_index": 1,
+            "team1": {
+              "name": "UConn",
+              "seed": 8
+            },
+            "team2": {
+              "name": "Oklahoma",
+              "seed": 9
+            },
+            "winner": {
+              "name": "UConn",
+              "seed": 8
+            },
+            "reasoning": "While both teams have similar statistics, UConn's rebounding and blocking advantages give them an edge in this matchup. Their ability to control the boards and protect the paint will make it difficult for Oklahoma to score consistently. Additionally, UConn's slightly better defensive statistics will help them to limit Oklahoma's scoring opportunities.",
+            "analysis": "UConn and Oklahoma have similar statistics in many areas, but there are some key differences. UConn has a slightly higher scoring average (77.40 vs 78.80), but Oklahoma has a higher field goal percentage (0.47 vs 0.48). Both teams have similar 3-point shooting percentages (0.37 for both). UConn has a higher rebounding average (35.60 vs 32.10) and a higher block average (6.00 vs 2.00). Oklahoma has a higher assist average (13.70 vs 17.60) and a higher steal average (7.80 vs 5.30). Both teams have similar defensive statistics, with UConn allowing 68.00 points per game and Oklahoma allowing 74.80 points per game.",
+            "raw_prediction": "\n\n\n        ANALYSIS:\n        UConn and Oklahoma have similar statistics in many areas, but there are some key differences. UConn has a slightly higher scoring average (77.40 vs 78.80), but Oklahoma has a higher field goal percentage (0.47 vs 0.48). Both teams have similar 3-point shooting percentages (0.37 for both). UConn has a higher rebounding average (35.60 vs 32.10) and a higher block average (6.00 vs 2.00). Oklahoma has a higher assist average (13.70 vs 17.60) and a higher steal average (7.80 vs 5.30). Both teams have similar defensive statistics, with UConn allowing 68.00 points per game and Oklahoma allowing 74.80 points per game.\n        \n        REASONING:\n        While both teams have similar statistics, UConn's rebounding and blocking advantages give them an edge in this matchup. Their ability to control the boards and protect the paint will make it difficult for Oklahoma to score consistently. Additionally, UConn's slightly better defensive statistics will help them to limit Oklahoma's scoring opportunities.\n        \n        PREDICTION:\n        UConn"
+          },
+          {
+            "round": 1,
+            "region": "West",
+            "matchup_index": 2,
+            "team1": {
+              "name": "Memphis",
+              "seed": 5
+            },
+            "team2": {
+              "name": "Colorado St",
+              "seed": 12
+            },
+            "winner": {
+              "name": "Memphis",
+              "seed": 5
+            },
+            "reasoning": "While both teams have their strengths, Memphis' advantage in scoring and three-point shooting gives them an edge in this matchup. Additionally, Memphis' slightly better defensive efficiency (1.04 vs 1.02) could make a difference in a close game. Colorado St's rebounding advantage is significant, but Memphis' ability to score from both inside and outside the arc could be too much for the Rams to handle.",
+            "analysis": "Both Memphis and Colorado St have similar statistics, with Memphis having a slight edge in scoring (80.10 vs 75.30) and field goal percentage (0.47 vs 0.45). Memphis also has a better three-point shooting percentage (0.38 vs 0.33). However, Colorado St has a higher rebounding margin (39.80 vs 37.40) and more assists per game (17.50 vs 14.60). Defensively, both teams are similar, with Memphis allowing 73.20 points per game and Colorado St allowing 67.10 points per game.",
+            "raw_prediction": " \"\"\"\n\nI'll provide the analysis and prediction for the matchup between Memphis and Colorado St.\n\nANALYSIS:\nBoth Memphis and Colorado St have similar statistics, with Memphis having a slight edge in scoring (80.10 vs 75.30) and field goal percentage (0.47 vs 0.45). Memphis also has a better three-point shooting percentage (0.38 vs 0.33). However, Colorado St has a higher rebounding margin (39.80 vs 37.40) and more assists per game (17.50 vs 14.60). Defensively, both teams are similar, with Memphis allowing 73.20 points per game and Colorado St allowing 67.10 points per game.\n\nREASONING:\nWhile both teams have their strengths, Memphis' advantage in scoring and three-point shooting gives them an edge in this matchup. Additionally, Memphis' slightly better defensive efficiency (1.04 vs 1.02) could make a difference in a close game. Colorado St's rebounding advantage is significant, but Memphis' ability to score from both inside and outside the arc could be too much for the Rams to handle.\n\nPREDICTION:\nMemphis"
+          },
+          {
+            "round": 1,
+            "region": "West",
+            "matchup_index": 3,
+            "team1": {
+              "name": "Maryland",
+              "seed": 4
+            },
+            "team2": {
+              "name": "Grand Canyon",
+              "seed": 13
+            },
+            "winner": {
+              "name": "Maryland",
+              "seed": 4
+            },
+            "reasoning": "Maryland's strong offense and rebounding presence give them an advantage over Grand Canyon. While both teams have similar defensive statistics, Maryland's ability to score and rebound at a higher rate should allow them to control the pace of the game. Additionally, Maryland's strength of schedule, being a 4th seed, suggests they have faced tougher competition and are more prepared for the tournament.",
+            "analysis": "Maryland, the 4th seed, has a strong offense, averaging 81.70 points per game, with a high field goal percentage of 0.47 and a respectable 3-point shooting percentage of 0.37. They also have a strong rebounding presence, averaging 36.70 rebounds per game. On the defensive end, they allow an average of 67.00 points per game, with a decent field goal percentage defense of 0.41. Grand Canyon, the 13th seed, has a slightly weaker offense, averaging 77.00 points per game, with a similar field goal percentage of 0.46 and a slightly lower 3-point shooting percentage of 0.36. They also have a strong rebounding presence, averaging 35.50 rebounds per game. On the defensive end, they allow an average of 69.50 points per game, with a slightly weaker field goal percentage defense of 0.42.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Maryland, the 4th seed, has a strong offense, averaging 81.70 points per game, with a high field goal percentage of 0.47 and a respectable 3-point shooting percentage of 0.37. They also have a strong rebounding presence, averaging 36.70 rebounds per game. On the defensive end, they allow an average of 67.00 points per game, with a decent field goal percentage defense of 0.41. Grand Canyon, the 13th seed, has a slightly weaker offense, averaging 77.00 points per game, with a similar field goal percentage of 0.46 and a slightly lower 3-point shooting percentage of 0.36. They also have a strong rebounding presence, averaging 35.50 rebounds per game. On the defensive end, they allow an average of 69.50 points per game, with a slightly weaker field goal percentage defense of 0.42.\n\n        REASONING:\n        Maryland's strong offense and rebounding presence give them an advantage over Grand Canyon. While both teams have similar defensive statistics, Maryland's ability to score and rebound at a higher rate should allow them to control the pace of the game. Additionally, Maryland's strength of schedule, being a 4th seed, suggests they have faced tougher competition and are more prepared for the tournament.\n\n        PREDICTION:\n        Maryland"
+          },
+          {
+            "round": 1,
+            "region": "West",
+            "matchup_index": 4,
+            "team1": {
+              "name": "Missouri",
+              "seed": 6
+            },
+            "team2": {
+              "name": "Drake",
+              "seed": 11
+            },
+            "winner": {
+              "name": "Missouri",
+              "seed": 6
+            },
+            "reasoning": "While both teams have their strengths, Missouri's stronger defense and rebounding advantage give them an edge in this matchup. Missouri's ability to limit their opponents' scoring opportunities and control the boards will make it difficult for Drake to keep up. Additionally, Missouri's higher scoring average and similar field goal percentage to Drake suggest they have the offensive firepower to take advantage of their defensive strengths.",
+            "analysis": "Both Missouri and Drake have similar statistics, with Missouri having a slight edge in points scored per game (84.50 vs 76.00) and field goal percentage (0.48 vs 0.48). However, Drake has a better free throw percentage (0.75 vs 0.72) and more assists per game (15.00 vs 13.80). Missouri has a stronger defense, allowing 73.80 points per game compared to Drake's 67.00. Missouri also has a higher rebounding margin (34.30 vs 33.50) and more steals per game (9.40 vs 6.00).",
+            "raw_prediction": " \"\"\"\n\nI'll be happy to help you with that!\n\nANALYSIS:\nBoth Missouri and Drake have similar statistics, with Missouri having a slight edge in points scored per game (84.50 vs 76.00) and field goal percentage (0.48 vs 0.48). However, Drake has a better free throw percentage (0.75 vs 0.72) and more assists per game (15.00 vs 13.80). Missouri has a stronger defense, allowing 73.80 points per game compared to Drake's 67.00. Missouri also has a higher rebounding margin (34.30 vs 33.50) and more steals per game (9.40 vs 6.00).\n\nREASONING:\nWhile both teams have their strengths, Missouri's stronger defense and rebounding advantage give them an edge in this matchup. Missouri's ability to limit their opponents' scoring opportunities and control the boards will make it difficult for Drake to keep up. Additionally, Missouri's higher scoring average and similar field goal percentage to Drake suggest they have the offensive firepower to take advantage of their defensive strengths.\n\nPREDICTION:\nMissouri"
+          },
+          {
+            "round": 1,
+            "region": "West",
+            "matchup_index": 5,
+            "team1": {
+              "name": "Texas Tech",
+              "seed": 3
+            },
+            "team2": {
+              "name": "UNC Wilmington",
+              "seed": 14
+            },
+            "winner": {
+              "name": "Texas Tech",
+              "seed": 3
+            },
+            "reasoning": "Texas Tech's strong defense and ability to limit opponents' scoring opportunities give them a significant advantage over UNC Wilmington. Additionally, their superior three-point shooting will allow them to stretch the defense and create more scoring opportunities. UNC Wilmington's struggles on defense will be exploited by Texas Tech's potent offense.",
+            "analysis": "Texas Tech, the 3-seed, boasts a strong offense, averaging 80.90 points per game with a 47% field goal percentage and 38% three-point shooting. They also excel on the defensive end, holding opponents to 67.60 points per game with a 43% field goal percentage allowed. UNC Wilmington, the 14-seed, has a similar offense, averaging 79.40 points per game with a 47% field goal percentage, but struggles defensively, allowing 69.90 points per game with a 43% field goal percentage allowed. Both teams have similar rebounding and assist numbers, but Texas Tech has a slight edge in steals and blocks.",
+            "raw_prediction": "\n\n\n        ANALYSIS:\n        Texas Tech, the 3-seed, boasts a strong offense, averaging 80.90 points per game with a 47% field goal percentage and 38% three-point shooting. They also excel on the defensive end, holding opponents to 67.60 points per game with a 43% field goal percentage allowed. UNC Wilmington, the 14-seed, has a similar offense, averaging 79.40 points per game with a 47% field goal percentage, but struggles defensively, allowing 69.90 points per game with a 43% field goal percentage allowed. Both teams have similar rebounding and assist numbers, but Texas Tech has a slight edge in steals and blocks.\n        \n        REASONING:\n        Texas Tech's strong defense and ability to limit opponents' scoring opportunities give them a significant advantage over UNC Wilmington. Additionally, their superior three-point shooting will allow them to stretch the defense and create more scoring opportunities. UNC Wilmington's struggles on defense will be exploited by Texas Tech's potent offense.\n        \n        PREDICTION:\n        Texas Tech"
+          },
+          {
+            "round": 1,
+            "region": "West",
+            "matchup_index": 6,
+            "team1": {
+              "name": "Kansas",
+              "seed": 7
+            },
+            "team2": {
+              "name": "Arkansas",
+              "seed": 10
+            },
+            "winner": {
+              "name": "Kansas",
+              "seed": 7
+            },
+            "reasoning": "While both teams have similar strengths and weaknesses, Kansas's rebounding advantage and stronger defense (69.30 points allowed per game vs 71.20) give them an edge in this matchup. Additionally, Kansas's ability to score from both inside and outside the arc (47% FG, 35% 3PT) makes them a more versatile offensive team.",
+            "analysis": "Both Kansas and Arkansas have similar statistics, with Kansas having a slight edge in terms of points scored per game (76.20 vs 76.60) and field goal percentage (0.47 vs 0.47). However, Arkansas has a better free throw percentage (0.73 vs 0.71) and more steals per game (7.60 vs 6.20). Kansas has a stronger rebounding margin (38.50 vs 35.30) and more blocks per game (4.00 vs 3.60).",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Both Kansas and Arkansas have similar statistics, with Kansas having a slight edge in terms of points scored per game (76.20 vs 76.60) and field goal percentage (0.47 vs 0.47). However, Arkansas has a better free throw percentage (0.73 vs 0.71) and more steals per game (7.60 vs 6.20). Kansas has a stronger rebounding margin (38.50 vs 35.30) and more blocks per game (4.00 vs 3.60).\n\n        REASONING:\n        While both teams have similar strengths and weaknesses, Kansas's rebounding advantage and stronger defense (69.30 points allowed per game vs 71.20) give them an edge in this matchup. Additionally, Kansas's ability to score from both inside and outside the arc (47% FG, 35% 3PT) makes them a more versatile offensive team.\n\n        PREDICTION:\n        Kansas"
+          },
+          {
+            "round": 1,
+            "region": "West",
+            "matchup_index": 7,
+            "team1": {
+              "name": "St John's",
+              "seed": 2
+            },
+            "team2": {
+              "name": "Omaha",
+              "seed": 15
+            },
+            "winner": {
+              "name": "St John's",
+              "seed": 2
+            },
+            "reasoning": "St John's has a significant advantage in rebounding and defensive efficiency, which will give them more opportunities to score and limit Omaha's scoring chances. While Omaha has a strong offense, their defensive struggles will be exploited by St John's.",
+            "analysis": "St John's, the 2nd seed, has a strong offense, scoring 78.70 points per game, with a 45% field goal percentage and 30% three-point shooting. They also have a significant rebounding advantage, with 40.90 rebounds per game compared to Omaha's 35.60. On the defensive end, St John's allows 65.90 points per game, with a 40% opponent field goal percentage.\n\n        Omaha, the 15th seed, has a similar scoring average, 78.10 points per game, but with a slightly higher field goal percentage, 47%. They also have a strong three-point shooting percentage, 37%. However, they struggle on the defensive end, allowing 75.00 points per game, with a 45% opponent field goal percentage.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        St John's, the 2nd seed, has a strong offense, scoring 78.70 points per game, with a 45% field goal percentage and 30% three-point shooting. They also have a significant rebounding advantage, with 40.90 rebounds per game compared to Omaha's 35.60. On the defensive end, St John's allows 65.90 points per game, with a 40% opponent field goal percentage.\n\n        Omaha, the 15th seed, has a similar scoring average, 78.10 points per game, but with a slightly higher field goal percentage, 47%. They also have a strong three-point shooting percentage, 37%. However, they struggle on the defensive end, allowing 75.00 points per game, with a 45% opponent field goal percentage.\n\n        REASONING:\n        St John's has a significant advantage in rebounding and defensive efficiency, which will give them more opportunities to score and limit Omaha's scoring chances. While Omaha has a strong offense, their defensive struggles will be exploited by St John's.\n\n        PREDICTION:\n        St John's"
+          },
+          {
+            "round": 1,
+            "region": "East",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Mount St. Mary's",
+              "seed": 16
+            },
+            "winner": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "reasoning": "Duke's superior offense and defense give them a significant advantage in this matchup. Their ability to score efficiently from both inside and outside the three-point line will be difficult for Mount St. Mary's to contain. Additionally, Duke's strong defense will likely limit Mount St. Mary's scoring opportunities. While Mount St. Mary's has a similar three-point shooting percentage, they don't have the same level of talent or depth as Duke.",
+            "analysis": "Duke, the number one seed, boasts an impressive offense, scoring 82.70 points per game with a field goal percentage of 0.49. They also excel in three-point shooting, making 10.10 three-pointers per game with a percentage of 0.38. Their defense is equally strong, allowing only 61.90 points per game and holding opponents to a 0.39 field goal percentage. In contrast, Mount St. Mary's, the 16th seed, averages 69.80 points per game with a field goal percentage of 0.41. While they have a similar three-point shooting percentage to Duke, they make fewer three-pointers per game (8.00). Defensively, they allow 69.80 points per game and have a similar opponent field goal percentage to Duke.",
+            "raw_prediction": " \"\"\"\n\nI'll provide the analysis and prediction for the matchup between Duke and Mount St. Mary's.\n\nANALYSIS:\nDuke, the number one seed, boasts an impressive offense, scoring 82.70 points per game with a field goal percentage of 0.49. They also excel in three-point shooting, making 10.10 three-pointers per game with a percentage of 0.38. Their defense is equally strong, allowing only 61.90 points per game and holding opponents to a 0.39 field goal percentage. In contrast, Mount St. Mary's, the 16th seed, averages 69.80 points per game with a field goal percentage of 0.41. While they have a similar three-point shooting percentage to Duke, they make fewer three-pointers per game (8.00). Defensively, they allow 69.80 points per game and have a similar opponent field goal percentage to Duke.\n\nREASONING:\nDuke's superior offense and defense give them a significant advantage in this matchup. Their ability to score efficiently from both inside and outside the three-point line will be difficult for Mount St. Mary's to contain. Additionally, Duke's strong defense will likely limit Mount St. Mary's scoring opportunities. While Mount St. Mary's has a similar three-point shooting percentage, they don't have the same level of talent or depth as Duke.\n\nPREDICTION:\nDuke"
+          },
+          {
+            "round": 1,
+            "region": "East",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Mississippi St",
+              "seed": 8
+            },
+            "team2": {
+              "name": "Baylor",
+              "seed": 9
+            },
+            "winner": {
+              "name": "Baylor",
+              "seed": 9
+            },
+            "reasoning": "While Mississippi St has a better defensive efficiency, Baylor's offense is more potent and efficient. Baylor's ability to score from beyond the arc (9.5 3-pointers per game) could be the difference-maker in this matchup. Mississippi St's defense will struggle to contain Baylor's offense, and Baylor's defense is capable of holding Mississippi St's offense in check.",
+            "analysis": "Mississippi St and Baylor have similar statistics, but there are some key differences. Mississippi St has a slightly better defensive efficiency, allowing 74.20 points per game compared to Baylor's 71.50. However, Baylor has a better offensive efficiency, scoring 81.50 points per game compared to Mississippi St's 79.80. Baylor also has a higher 3-point shooting percentage (0.37) compared to Mississippi St (0.31). Both teams have similar rebounding and assist numbers.",
+            "raw_prediction": " \"\"\"\n        \n        ANALYSIS:\n        Mississippi St and Baylor have similar statistics, but there are some key differences. Mississippi St has a slightly better defensive efficiency, allowing 74.20 points per game compared to Baylor's 71.50. However, Baylor has a better offensive efficiency, scoring 81.50 points per game compared to Mississippi St's 79.80. Baylor also has a higher 3-point shooting percentage (0.37) compared to Mississippi St (0.31). Both teams have similar rebounding and assist numbers.\n        \n        REASONING:\n        While Mississippi St has a better defensive efficiency, Baylor's offense is more potent and efficient. Baylor's ability to score from beyond the arc (9.5 3-pointers per game) could be the difference-maker in this matchup. Mississippi St's defense will struggle to contain Baylor's offense, and Baylor's defense is capable of holding Mississippi St's offense in check.\n        \n        PREDICTION:\n        Baylor"
+          },
+          {
+            "round": 1,
+            "region": "East",
+            "matchup_index": 2,
+            "team1": {
+              "name": "Oregon",
+              "seed": 5
+            },
+            "team2": {
+              "name": "Liberty",
+              "seed": 12
+            },
+            "winner": {
+              "name": "Oregon",
+              "seed": 5
+            },
+            "reasoning": "While Liberty has some impressive offensive statistics, Oregon's defensive prowess and rebounding advantage give them the edge in this matchup. Oregon's ability to limit their opponents' scoring opportunities and control the boards will make it difficult for Liberty to keep up. Additionally, Oregon's experience as a 5-seed will give them an advantage in terms of tournament experience and preparation.",
+            "analysis": "Both Oregon and Liberty have impressive statistics, but there are some key differences that stand out. Oregon has a slightly higher points per game average (77.50 vs 76.60), but Liberty has a better field goal percentage (0.49 vs 0.47). Liberty also has a higher three-point shooting percentage (0.39 vs 0.36). However, Oregon has a significant advantage in terms of defensive efficiency, allowing only 70.00 points per game compared to Liberty's 62.90. Oregon also has a higher rebounding margin (35.00 vs 33.00) and more blocks per game (4.50 vs 2.00).",
+            "raw_prediction": " \"\"\"\n\n        ANALYSIS:\n        Both Oregon and Liberty have impressive statistics, but there are some key differences that stand out. Oregon has a slightly higher points per game average (77.50 vs 76.60), but Liberty has a better field goal percentage (0.49 vs 0.47). Liberty also has a higher three-point shooting percentage (0.39 vs 0.36). However, Oregon has a significant advantage in terms of defensive efficiency, allowing only 70.00 points per game compared to Liberty's 62.90. Oregon also has a higher rebounding margin (35.00 vs 33.00) and more blocks per game (4.50 vs 2.00).\n\n        REASONING:\n        While Liberty has some impressive offensive statistics, Oregon's defensive prowess and rebounding advantage give them the edge in this matchup. Oregon's ability to limit their opponents' scoring opportunities and control the boards will make it difficult for Liberty to keep up. Additionally, Oregon's experience as a 5-seed will give them an advantage in terms of tournament experience and preparation.\n\n        PREDICTION:\n        Oregon"
+          },
+          {
+            "round": 1,
+            "region": "East",
+            "matchup_index": 3,
+            "team1": {
+              "name": "Arizona",
+              "seed": 4
+            },
+            "team2": {
+              "name": "Akron",
+              "seed": 13
+            },
+            "winner": {
+              "name": "Arizona",
+              "seed": 4
+            },
+            "reasoning": "Arizona's strong offense and rebounding advantage give them a significant edge in this matchup. While Akron's defense is respectable, it may struggle to contain Arizona's potent offense. Additionally, Arizona's experience as a higher seed should give them an advantage in terms of tournament experience and preparation.",
+            "analysis": "Arizona, the 4th seed, has a strong offense, averaging 85 points per game with a 49% field goal percentage and 38% three-point shooting. They also have a significant rebounding advantage, averaging 39 rebounds per game compared to Akron's 33.5. On the defensive end, Arizona allows 72 points per game, with opponents shooting 42% from the field and 33% from three. \n\n        Akron, the 13th seed, has a more modest offense, averaging 72.5 points per game with a 45% field goal percentage and 35% three-point shooting. They also have a slight rebounding disadvantage, averaging 33.5 rebounds per game. On the defensive end, Akron allows 66 points per game, with opponents shooting 42% from the field and 33% from three.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Arizona, the 4th seed, has a strong offense, averaging 85 points per game with a 49% field goal percentage and 38% three-point shooting. They also have a significant rebounding advantage, averaging 39 rebounds per game compared to Akron's 33.5. On the defensive end, Arizona allows 72 points per game, with opponents shooting 42% from the field and 33% from three. \n\n        Akron, the 13th seed, has a more modest offense, averaging 72.5 points per game with a 45% field goal percentage and 35% three-point shooting. They also have a slight rebounding disadvantage, averaging 33.5 rebounds per game. On the defensive end, Akron allows 66 points per game, with opponents shooting 42% from the field and 33% from three.\n\n        REASONING:\n        Arizona's strong offense and rebounding advantage give them a significant edge in this matchup. While Akron's defense is respectable, it may struggle to contain Arizona's potent offense. Additionally, Arizona's experience as a higher seed should give them an advantage in terms of tournament experience and preparation.\n\n        PREDICTION:\n        Arizona"
+          },
+          {
+            "round": 1,
+            "region": "East",
+            "matchup_index": 4,
+            "team1": {
+              "name": "BYU",
+              "seed": 6
+            },
+            "team2": {
+              "name": "VCU",
+              "seed": 11
+            },
+            "winner": {
+              "name": "VCU",
+              "seed": 11
+            },
+            "reasoning": "While BYU's offense is more potent, VCU's defense is stingier and could potentially shut down BYU's scoring threats. Additionally, VCU's rebounding advantage could give them more opportunities to score. However, BYU's 3-point shooting could be the X-factor in this game, as they have shown the ability to get hot from beyond the arc.",
+            "analysis": "Both BYU and VCU have impressive statistics, but there are some key differences that stand out. BYU has a higher scoring average (81.00) compared to VCU (77.10), which could be an advantage. However, VCU has a stronger defense, allowing only 62.40 points per game compared to BYU's 71.10. BYU also has a higher 3-point shooting percentage (0.37) compared to VCU (0.33), which could be crucial in a close game. On the other hand, VCU has a higher rebounding average (38.40) compared to BYU (37.40), which could give them an edge on the boards.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Both BYU and VCU have impressive statistics, but there are some key differences that stand out. BYU has a higher scoring average (81.00) compared to VCU (77.10), which could be an advantage. However, VCU has a stronger defense, allowing only 62.40 points per game compared to BYU's 71.10. BYU also has a higher 3-point shooting percentage (0.37) compared to VCU (0.33), which could be crucial in a close game. On the other hand, VCU has a higher rebounding average (38.40) compared to BYU (37.40), which could give them an edge on the boards.\n\n        REASONING:\n        While BYU's offense is more potent, VCU's defense is stingier and could potentially shut down BYU's scoring threats. Additionally, VCU's rebounding advantage could give them more opportunities to score. However, BYU's 3-point shooting could be the X-factor in this game, as they have shown the ability to get hot from beyond the arc.\n\n        PREDICTION:\n        VCU"
+          },
+          {
+            "round": 1,
+            "region": "East",
+            "matchup_index": 5,
+            "team1": {
+              "name": "Wisconsin",
+              "seed": 3
+            },
+            "team2": {
+              "name": "Montana",
+              "seed": 14
+            },
+            "winner": {
+              "name": "Wisconsin",
+              "seed": 3
+            },
+            "reasoning": "While Montana has some advantages on the offensive end, Wisconsin's defensive prowess and 3-point shooting ability give them an edge in this matchup. Wisconsin's ability to limit opponents' scoring opportunities and create turnovers will be key in this game. Additionally, Wisconsin's experience and strength of schedule in the Big Ten conference should prepare them well for the NCAA tournament.",
+            "analysis": "Wisconsin and Montana have similar statistics in many categories, but there are some key differences. Wisconsin has a slightly better defensive efficiency, allowing 67 points per game compared to Montana's 72.9 points per game. Wisconsin also has a higher 3-point shooting percentage (37% to 36%). On the other hand, Montana has a higher field goal percentage (50% to 47%) and a slightly better rebounding margin (31.7 to 33.5). Both teams have similar assist and steal numbers.",
+            "raw_prediction": " \"\"\"\n\nHere is the prediction:\n\nANALYSIS:\nWisconsin and Montana have similar statistics in many categories, but there are some key differences. Wisconsin has a slightly better defensive efficiency, allowing 67 points per game compared to Montana's 72.9 points per game. Wisconsin also has a higher 3-point shooting percentage (37% to 36%). On the other hand, Montana has a higher field goal percentage (50% to 47%) and a slightly better rebounding margin (31.7 to 33.5). Both teams have similar assist and steal numbers.\n\nREASONING:\nWhile Montana has some advantages on the offensive end, Wisconsin's defensive prowess and 3-point shooting ability give them an edge in this matchup. Wisconsin's ability to limit opponents' scoring opportunities and create turnovers will be key in this game. Additionally, Wisconsin's experience and strength of schedule in the Big Ten conference should prepare them well for the NCAA tournament.\n\nPREDICTION:\nWisconsin"
+          },
+          {
+            "round": 1,
+            "region": "East",
+            "matchup_index": 6,
+            "team1": {
+              "name": "Saint Mary's",
+              "seed": 7
+            },
+            "team2": {
+              "name": "Vanderbilt",
+              "seed": 10
+            },
+            "winner": {
+              "name": "Vanderbilt",
+              "seed": 10
+            },
+            "reasoning": "While both teams have their strengths, Vanderbilt's offense appears more capable of exploiting Saint Mary's defensive weaknesses. Vanderbilt's higher scoring average and better 3-point shooting percentage could put pressure on Saint Mary's defense, which might struggle to contain their opponents. Additionally, Vanderbilt's higher assist rate and better steal rate suggest they can create more scoring opportunities and disrupt Saint Mary's offense.",
+            "analysis": "Saint Mary's and Vanderbilt have distinct strengths and weaknesses. Saint Mary's excels in defensive efficiency, allowing only 60.7 points per game, with a strong rebounding margin (39.8 - 29.1) and a decent block rate (3.00). They also have a relatively high free throw percentage (0.69). However, their offense is less potent, with a lower scoring average (73.5) and a mediocre 3-point shooting percentage (0.32). Vanderbilt, on the other hand, boasts a more potent offense, scoring 79.6 points per game, with a higher 3-point shooting percentage (0.33) and a better free throw percentage (0.75). They also have a higher assist rate (14.00) and a better steal rate (9.00). However, their defense is less effective, allowing 74.8 points per game, with a lower rebounding margin (34.9 - 34.5) and a similar block rate (4.00).",
+            "raw_prediction": " \"\"\"\n\nHere is the response:\n\nANALYSIS:\nSaint Mary's and Vanderbilt have distinct strengths and weaknesses. Saint Mary's excels in defensive efficiency, allowing only 60.7 points per game, with a strong rebounding margin (39.8 - 29.1) and a decent block rate (3.00). They also have a relatively high free throw percentage (0.69). However, their offense is less potent, with a lower scoring average (73.5) and a mediocre 3-point shooting percentage (0.32). Vanderbilt, on the other hand, boasts a more potent offense, scoring 79.6 points per game, with a higher 3-point shooting percentage (0.33) and a better free throw percentage (0.75). They also have a higher assist rate (14.00) and a better steal rate (9.00). However, their defense is less effective, allowing 74.8 points per game, with a lower rebounding margin (34.9 - 34.5) and a similar block rate (4.00).\n\nREASONING:\nWhile both teams have their strengths, Vanderbilt's offense appears more capable of exploiting Saint Mary's defensive weaknesses. Vanderbilt's higher scoring average and better 3-point shooting percentage could put pressure on Saint Mary's defense, which might struggle to contain their opponents. Additionally, Vanderbilt's higher assist rate and better steal rate suggest they can create more scoring opportunities and disrupt Saint Mary's offense.\n\nPREDICTION:\nVanderbilt"
+          },
+          {
+            "round": 1,
+            "region": "East",
+            "matchup_index": 7,
+            "team1": {
+              "name": "Alabama",
+              "seed": 2
+            },
+            "team2": {
+              "name": "Robert Morris",
+              "seed": 15
+            },
+            "winner": {
+              "name": "Alabama",
+              "seed": 2
+            },
+            "reasoning": "Alabama's significant advantages in scoring, rebounding, and defensive efficiency give them a strong edge in this matchup. Robert Morris's offense, while decent, may struggle to keep up with Alabama's potent attack. Additionally, Alabama's rebounding dominance could lead to more second-chance opportunities and limit Robert Morris's possessions.",
+            "analysis": "Alabama, the 2nd seed, boasts a strong offense, averaging 89.50 points per game with a 47% field goal percentage and 36% three-point shooting. They also have a significant rebounding advantage, grabbing 39.50 rebounds per game compared to Robert Morris's 37.30. Alabama's defense is also stout, allowing only 81.00 points per game with a 44% opponent field goal percentage.\n\nRobert Morris, the 15th seed, has a more modest offense, averaging 76.90 points per game with a 45% field goal percentage and 35% three-point shooting. While they have a similar rebounding average to Alabama, their defense allows 70.40 points per game with a 44% opponent field goal percentage.",
+            "raw_prediction": " \"\"\"\n\nI'll provide the analysis and prediction for the given matchup.\n\nANALYSIS:\nAlabama, the 2nd seed, boasts a strong offense, averaging 89.50 points per game with a 47% field goal percentage and 36% three-point shooting. They also have a significant rebounding advantage, grabbing 39.50 rebounds per game compared to Robert Morris's 37.30. Alabama's defense is also stout, allowing only 81.00 points per game with a 44% opponent field goal percentage.\n\nRobert Morris, the 15th seed, has a more modest offense, averaging 76.90 points per game with a 45% field goal percentage and 35% three-point shooting. While they have a similar rebounding average to Alabama, their defense allows 70.40 points per game with a 44% opponent field goal percentage.\n\nREASONING:\nAlabama's significant advantages in scoring, rebounding, and defensive efficiency give them a strong edge in this matchup. Robert Morris's offense, while decent, may struggle to keep up with Alabama's potent attack. Additionally, Alabama's rebounding dominance could lead to more second-chance opportunities and limit Robert Morris's possessions.\n\nPREDICTION:\nAlabama"
+          },
+          {
+            "round": 1,
+            "region": "Midwest",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Houston",
+              "seed": 1
+            },
+            "team2": {
+              "name": "SIUE",
+              "seed": 16
+            },
+            "winner": {
+              "name": "Houston",
+              "seed": 1
+            },
+            "reasoning": "Houston's strong defense and rebounding advantage give them a significant edge over SIUE. Additionally, Houston's higher assist-to-turnover ratio suggests they are more efficient on offense. While SIUE has a decent offense, their defense is not strong enough to contain Houston's potent attack.",
+            "analysis": "Houston, the number 1 seed, has a strong offense, averaging 74 points per game with a 44% field goal percentage and 33% three-point shooting. They also have a solid defense, allowing only 58 points per game with a 36% opponent field goal percentage. They outrebound their opponents by 10 points and have a higher assist-to-turnover ratio.\n\n        SIUE, the 16th seed, has a decent offense, averaging 72.6 points per game with a 43% field goal percentage and 34% three-point shooting. However, their defense is weaker, allowing 66.1 points per game with a 40% opponent field goal percentage. They are outrebounded by their opponents by 3 points and have a lower assist-to-turnover ratio.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Houston, the number 1 seed, has a strong offense, averaging 74 points per game with a 44% field goal percentage and 33% three-point shooting. They also have a solid defense, allowing only 58 points per game with a 36% opponent field goal percentage. They outrebound their opponents by 10 points and have a higher assist-to-turnover ratio.\n\n        SIUE, the 16th seed, has a decent offense, averaging 72.6 points per game with a 43% field goal percentage and 34% three-point shooting. However, their defense is weaker, allowing 66.1 points per game with a 40% opponent field goal percentage. They are outrebounded by their opponents by 3 points and have a lower assist-to-turnover ratio.\n\n        REASONING:\n        Houston's strong defense and rebounding advantage give them a significant edge over SIUE. Additionally, Houston's higher assist-to-turnover ratio suggests they are more efficient on offense. While SIUE has a decent offense, their defense is not strong enough to contain Houston's potent attack.\n\n        PREDICTION:\n        Houston"
+          },
+          {
+            "round": 1,
+            "region": "Midwest",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Gonzaga",
+              "seed": 8
+            },
+            "team2": {
+              "name": "Georgia",
+              "seed": 9
+            },
+            "winner": {
+              "name": "Gonzaga",
+              "seed": 8
+            },
+            "reasoning": "Gonzaga's superior offense, led by their high field goal percentage and 3-point shooting, gives them an advantage over Georgia. While Georgia's defense is slightly better, Gonzaga's offense should be able to overcome it. Additionally, Gonzaga's experience as an 8-seed should give them an edge in a close matchup.",
+            "analysis": "Gonzaga and Georgia have similar statistics, but Gonzaga has a slight edge in several areas. Gonzaga has a higher points per game average (85.50 to 75.60) and a better field goal percentage (50% to 46%). Gonzaga also has a higher 3-point shooting percentage (38% to 34%). However, Georgia has a slightly better defensive field goal percentage (41% to 42%) and a higher block per game average (5.00 to 4.50). Both teams have similar rebounding and assist numbers.",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nGonzaga and Georgia have similar statistics, but Gonzaga has a slight edge in several areas. Gonzaga has a higher points per game average (85.50 to 75.60) and a better field goal percentage (50% to 46%). Gonzaga also has a higher 3-point shooting percentage (38% to 34%). However, Georgia has a slightly better defensive field goal percentage (41% to 42%) and a higher block per game average (5.00 to 4.50). Both teams have similar rebounding and assist numbers.\n\nREASONING:\nGonzaga's superior offense, led by their high field goal percentage and 3-point shooting, gives them an advantage over Georgia. While Georgia's defense is slightly better, Gonzaga's offense should be able to overcome it. Additionally, Gonzaga's experience as an 8-seed should give them an edge in a close matchup.\n\nPREDICTION:\nGonzaga"
+          },
+          {
+            "round": 1,
+            "region": "Midwest",
+            "matchup_index": 2,
+            "team1": {
+              "name": "Clemson",
+              "seed": 5
+            },
+            "team2": {
+              "name": "McNeese",
+              "seed": 12
+            },
+            "winner": {
+              "name": "Clemson",
+              "seed": 5
+            },
+            "reasoning": "While both teams have similar statistics, Clemson's slight advantage in shooting percentages and McNeese's rebounding and defensive strengths make this a close matchup. However, Clemson's stronger schedule and more experience in big games give them an edge in this matchup.",
+            "analysis": "Clemson and McNeese have similar statistics, with both teams averaging around 78 points per game. Clemson has a slightly better field goal percentage (48% vs 47%) and three-point shooting percentage (38% vs 36%). However, McNeese has a higher rebounding average (36 vs 34.5) and more steals per game (8.5 vs 6). Both teams have similar defensive statistics, with Clemson allowing 71 points per game and McNeese allowing 65 points per game.",
+            "raw_prediction": "\n\n\n        ANALYSIS:\n        Clemson and McNeese have similar statistics, with both teams averaging around 78 points per game. Clemson has a slightly better field goal percentage (48% vs 47%) and three-point shooting percentage (38% vs 36%). However, McNeese has a higher rebounding average (36 vs 34.5) and more steals per game (8.5 vs 6). Both teams have similar defensive statistics, with Clemson allowing 71 points per game and McNeese allowing 65 points per game.\n        \n        REASONING:\n        While both teams have similar statistics, Clemson's slight advantage in shooting percentages and McNeese's rebounding and defensive strengths make this a close matchup. However, Clemson's stronger schedule and more experience in big games give them an edge in this matchup.\n        \n        PREDICTION:\n        Clemson"
+          },
+          {
+            "round": 1,
+            "region": "Midwest",
+            "matchup_index": 3,
+            "team1": {
+              "name": "Purdue",
+              "seed": 4
+            },
+            "team2": {
+              "name": "High Point",
+              "seed": 13
+            },
+            "winner": {
+              "name": "Purdue",
+              "seed": 4
+            },
+            "reasoning": "Purdue's strong defensive efficiency and ability to limit their opponents' scoring will give them an advantage in this matchup. While High Point has a high-scoring offense, Purdue's defense should be able to contain them. Additionally, Purdue's 3-point shooting percentage is higher, which could be a key factor in this game.",
+            "analysis": "Purdue, the 4th seed, has a strong defensive efficiency, allowing only 71.10 points per game, while High Point, the 13th seed, scores 82.20 points per game. Purdue's opponents have a lower field goal percentage (0.46) compared to High Point's opponents (0.43). Purdue also has a higher 3-point shooting percentage (0.39) compared to High Point (0.36). However, High Point has a higher free throw shooting percentage (0.76) compared to Purdue (0.73). Both teams have similar rebounding numbers, but Purdue has a slight advantage in assists (16.00 to 13.00).",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Purdue, the 4th seed, has a strong defensive efficiency, allowing only 71.10 points per game, while High Point, the 13th seed, scores 82.20 points per game. Purdue's opponents have a lower field goal percentage (0.46) compared to High Point's opponents (0.43). Purdue also has a higher 3-point shooting percentage (0.39) compared to High Point (0.36). However, High Point has a higher free throw shooting percentage (0.76) compared to Purdue (0.73). Both teams have similar rebounding numbers, but Purdue has a slight advantage in assists (16.00 to 13.00).\n\n        REASONING:\n        Purdue's strong defensive efficiency and ability to limit their opponents' scoring will give them an advantage in this matchup. While High Point has a high-scoring offense, Purdue's defense should be able to contain them. Additionally, Purdue's 3-point shooting percentage is higher, which could be a key factor in this game.\n\n        PREDICTION:\n        Purdue"
+          },
+          {
+            "round": 1,
+            "region": "Midwest",
+            "matchup_index": 4,
+            "team1": {
+              "name": "Illinois",
+              "seed": 6
+            },
+            "team2": {
+              "name": "Xavier",
+              "seed": 11
+            },
+            "winner": {
+              "name": "Illinois",
+              "seed": 6
+            },
+            "reasoning": "Illinois has a significant rebounding advantage, which could lead to more scoring opportunities. Additionally, their strong offense and decent defense should give them an edge in this matchup. While Xavier has a slightly better field goal percentage defense, Illinois' rebounding advantage and strong offense should be enough to overcome this.",
+            "analysis": "Illinois, the 6th seed, has a strong offense, averaging 83.80 points per game, with a high field goal percentage of 0.45. They also have a good three-point shooting percentage of 0.31. On the defensive end, they allow 74.60 points per game, with a decent field goal percentage defense of 0.42. Illinois has a significant rebounding advantage, averaging 42.50 rebounds per game compared to Xavier's 33.70.\n\n        Xavier, the 11th seed, has a slightly weaker offense, averaging 78.00 points per game, with a field goal percentage of 0.47. They have a similar three-point shooting percentage to Illinois at 0.39. Defensively, they allow 70.90 points per game, with a slightly better field goal percentage defense of 0.44. Xavier has a higher assist average, with 16.90 assists per game compared to Illinois' 15.00.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Illinois, the 6th seed, has a strong offense, averaging 83.80 points per game, with a high field goal percentage of 0.45. They also have a good three-point shooting percentage of 0.31. On the defensive end, they allow 74.60 points per game, with a decent field goal percentage defense of 0.42. Illinois has a significant rebounding advantage, averaging 42.50 rebounds per game compared to Xavier's 33.70.\n\n        Xavier, the 11th seed, has a slightly weaker offense, averaging 78.00 points per game, with a field goal percentage of 0.47. They have a similar three-point shooting percentage to Illinois at 0.39. Defensively, they allow 70.90 points per game, with a slightly better field goal percentage defense of 0.44. Xavier has a higher assist average, with 16.90 assists per game compared to Illinois' 15.00.\n\n        REASONING:\n        Illinois has a significant rebounding advantage, which could lead to more scoring opportunities. Additionally, their strong offense and decent defense should give them an edge in this matchup. While Xavier has a slightly better field goal percentage defense, Illinois' rebounding advantage and strong offense should be enough to overcome this.\n\n        PREDICTION:\n        Illinois"
+          },
+          {
+            "round": 1,
+            "region": "Midwest",
+            "matchup_index": 5,
+            "team1": {
+              "name": "Kentucky",
+              "seed": 3
+            },
+            "team2": {
+              "name": "Troy",
+              "seed": 14
+            },
+            "winner": {
+              "name": "Kentucky",
+              "seed": 3
+            },
+            "reasoning": "Kentucky's superior offense, rebounding advantage, and strong defense give them a significant edge in this matchup. Troy's inability to match Kentucky's scoring output and defensive prowess makes it difficult for them to keep up. Additionally, Kentucky's experience and strength of schedule should help them navigate the tournament.",
+            "analysis": "Kentucky, the 3rd seed, boasts a strong offense, averaging 89 points per game with a 50% field goal percentage and 40% three-point shooting. They also have a significant rebounding advantage, grabbing 38 boards per game compared to Troy's 38.6. Kentucky's defense is also stout, holding opponents to 78 points per game and 44% field goal shooting.\n\nTroy, the 14th seed, has a more modest offense, scoring 73.9 points per game with a 44% field goal percentage and 30% three-point shooting. While they have a slight edge in steals per game, their defense allows 65.4 points per game and 40% field goal shooting.",
+            "raw_prediction": " \"\"\"\n\nI'll provide the analysis and prediction for the given matchup.\n\nANALYSIS:\nKentucky, the 3rd seed, boasts a strong offense, averaging 89 points per game with a 50% field goal percentage and 40% three-point shooting. They also have a significant rebounding advantage, grabbing 38 boards per game compared to Troy's 38.6. Kentucky's defense is also stout, holding opponents to 78 points per game and 44% field goal shooting.\n\nTroy, the 14th seed, has a more modest offense, scoring 73.9 points per game with a 44% field goal percentage and 30% three-point shooting. While they have a slight edge in steals per game, their defense allows 65.4 points per game and 40% field goal shooting.\n\nREASONING:\nKentucky's superior offense, rebounding advantage, and strong defense give them a significant edge in this matchup. Troy's inability to match Kentucky's scoring output and defensive prowess makes it difficult for them to keep up. Additionally, Kentucky's experience and strength of schedule should help them navigate the tournament.\n\nPREDICTION:\nKentucky"
+          },
+          {
+            "round": 1,
+            "region": "Midwest",
+            "matchup_index": 6,
+            "team1": {
+              "name": "UCLA",
+              "seed": 7
+            },
+            "team2": {
+              "name": "Utah State",
+              "seed": 10
+            },
+            "winner": {
+              "name": "UCLA",
+              "seed": 7
+            },
+            "reasoning": "While Utah State has a higher scoring average, UCLA's defensive efficiency and rebounding margin give them an advantage. UCLA's ability to limit their opponents' scoring opportunities and control the boards will make it difficult for Utah State to maintain their high-scoring pace. Additionally, UCLA's experience in the NCAA tournament will give them an edge in a close game.",
+            "analysis": "UCLA and Utah State have similar statistics, but with some key differences. UCLA has a slightly better defensive efficiency, allowing 65.7 points per game compared to Utah State's 70.0 points per game. UCLA also has a higher rebounding margin, with 32.7 rebounds per game compared to Utah State's 34.6 rebounds per game. However, Utah State has a higher scoring average, with 80.9 points per game compared to UCLA's 74.8 points per game. Utah State also has a higher 3-point shooting percentage, with 36% compared to UCLA's 35%.",
+            "raw_prediction": " \"\"\"\n\nI'll be happy to help!\n\nANALYSIS:\nUCLA and Utah State have similar statistics, but with some key differences. UCLA has a slightly better defensive efficiency, allowing 65.7 points per game compared to Utah State's 70.0 points per game. UCLA also has a higher rebounding margin, with 32.7 rebounds per game compared to Utah State's 34.6 rebounds per game. However, Utah State has a higher scoring average, with 80.9 points per game compared to UCLA's 74.8 points per game. Utah State also has a higher 3-point shooting percentage, with 36% compared to UCLA's 35%.\n\nREASONING:\nWhile Utah State has a higher scoring average, UCLA's defensive efficiency and rebounding margin give them an advantage. UCLA's ability to limit their opponents' scoring opportunities and control the boards will make it difficult for Utah State to maintain their high-scoring pace. Additionally, UCLA's experience in the NCAA tournament will give them an edge in a close game.\n\nPREDICTION:\nUCLA"
+          },
+          {
+            "round": 1,
+            "region": "Midwest",
+            "matchup_index": 7,
+            "team1": {
+              "name": "Tennessee",
+              "seed": 2
+            },
+            "team2": {
+              "name": "Wofford",
+              "seed": 15
+            },
+            "winner": {
+              "name": "Tennessee",
+              "seed": 2
+            },
+            "reasoning": "Tennessee's strong rebounding advantage and defensive prowess give them a significant edge over Wofford. The Volunteers' ability to limit opponents' scoring opportunities and control the boards will make it difficult for Wofford to keep up. Additionally, Tennessee's offense is more efficient, with a higher field goal percentage and three-point shooting percentage.",
+            "analysis": "Tennessee, the 2nd seed, boasts an impressive offense, scoring 80.50 points per game with a 47% field goal percentage and 36% three-point shooting. They also have a strong rebounding advantage, grabbing 38.50 rebounds per game. On the defensive end, they hold opponents to 65.50 points per game and 39% field goal shooting. Wofford, the 15th seed, has a solid offense as well, scoring 75.30 points per game with a 45% field goal percentage and 35% three-point shooting. However, they struggle on the defensive end, allowing 69.80 points per game and 43% field goal shooting.",
+            "raw_prediction": " \"\"\"\n\nI'll provide the analysis and prediction for the matchup between Tennessee and Wofford.\n\nANALYSIS:\nTennessee, the 2nd seed, boasts an impressive offense, scoring 80.50 points per game with a 47% field goal percentage and 36% three-point shooting. They also have a strong rebounding advantage, grabbing 38.50 rebounds per game. On the defensive end, they hold opponents to 65.50 points per game and 39% field goal shooting. Wofford, the 15th seed, has a solid offense as well, scoring 75.30 points per game with a 45% field goal percentage and 35% three-point shooting. However, they struggle on the defensive end, allowing 69.80 points per game and 43% field goal shooting.\n\nREASONING:\nTennessee's strong rebounding advantage and defensive prowess give them a significant edge over Wofford. The Volunteers' ability to limit opponents' scoring opportunities and control the boards will make it difficult for Wofford to keep up. Additionally, Tennessee's offense is more efficient, with a higher field goal percentage and three-point shooting percentage.\n\nPREDICTION:\nTennessee"
+          }
+        ],
+        "2": [
+          {
+            "round": 2,
+            "region": "South",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Louisville",
+              "seed": 8
+            },
+            "winner": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "reasoning": "Auburn's significant advantage in three-point shooting and overall scoring offense gives them an edge in this matchup. While Louisville's defense is respectable, it may struggle to contain Auburn's potent offense. Additionally, Auburn's strong rebounding numbers (37.10 per game) could give them an advantage on the boards, leading to more scoring opportunities.",
+            "analysis": "Auburn, the number 1 seed, has a strong offense, scoring 83.80 points per game, with a high field goal percentage of 0.48. They also have a significant advantage in three-point shooting, making 9.20 three-pointers per game at a 0.37 clip. Auburn's defense is also stout, holding opponents to 69.60 points per game and 0.41 field goal percentage. Louisville, on the other hand, has a more balanced offense and defense, but their numbers are slightly lower across the board. They score 78.60 points per game, with a 0.45 field goal percentage, and hold opponents to 68.90 points per game, with a 0.45 field goal percentage.",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nAuburn, the number 1 seed, has a strong offense, scoring 83.80 points per game, with a high field goal percentage of 0.48. They also have a significant advantage in three-point shooting, making 9.20 three-pointers per game at a 0.37 clip. Auburn's defense is also stout, holding opponents to 69.60 points per game and 0.41 field goal percentage. Louisville, on the other hand, has a more balanced offense and defense, but their numbers are slightly lower across the board. They score 78.60 points per game, with a 0.45 field goal percentage, and hold opponents to 68.90 points per game, with a 0.45 field goal percentage.\n\nREASONING:\nAuburn's significant advantage in three-point shooting and overall scoring offense gives them an edge in this matchup. While Louisville's defense is respectable, it may struggle to contain Auburn's potent offense. Additionally, Auburn's strong rebounding numbers (37.10 per game) could give them an advantage on the boards, leading to more scoring opportunities.\n\nPREDICTION:\nAuburn"
+          },
+          {
+            "round": 2,
+            "region": "South",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Michigan",
+              "seed": 5
+            },
+            "team2": {
+              "name": "Texas A&M",
+              "seed": 4
+            },
+            "winner": {
+              "name": "Michigan",
+              "seed": 5
+            },
+            "reasoning": "Michigan's advantage in scoring and 3-point shooting gives them an edge in this matchup. While Texas A&M has a strong rebounding margin, Michigan's ability to score from both inside and outside the arc will make it difficult for the Aggies to keep up. Additionally, Michigan's similar defensive statistics to Texas A&M suggest that they can contain the Aggies' offense.",
+            "analysis": "Michigan and Texas A&M have similar statistics, but there are some key differences. Michigan has a higher scoring average (78.30 vs 74.30) and a better field goal percentage (0.47 vs 0.42). They also have a higher 3-point shooting percentage (0.33 vs 0.31). However, Texas A&M has a stronger rebounding margin (41.20 vs 38.20) and a higher block rate (4.00 vs 3.00). Both teams have similar defensive statistics, with Michigan allowing 71.20 points per game and Texas A&M allowing 67.90 points per game.",
+            "raw_prediction": " \"\"\"\n\nI'll be happy to help you with that.\n\nANALYSIS:\nMichigan and Texas A&M have similar statistics, but there are some key differences. Michigan has a higher scoring average (78.30 vs 74.30) and a better field goal percentage (0.47 vs 0.42). They also have a higher 3-point shooting percentage (0.33 vs 0.31). However, Texas A&M has a stronger rebounding margin (41.20 vs 38.20) and a higher block rate (4.00 vs 3.00). Both teams have similar defensive statistics, with Michigan allowing 71.20 points per game and Texas A&M allowing 67.90 points per game.\n\nREASONING:\nMichigan's advantage in scoring and 3-point shooting gives them an edge in this matchup. While Texas A&M has a strong rebounding margin, Michigan's ability to score from both inside and outside the arc will make it difficult for the Aggies to keep up. Additionally, Michigan's similar defensive statistics to Texas A&M suggest that they can contain the Aggies' offense.\n\nPREDICTION:\nMichigan"
+          },
+          {
+            "round": 2,
+            "region": "South",
+            "matchup_index": 2,
+            "team1": {
+              "name": "North Carolina",
+              "seed": 11
+            },
+            "team2": {
+              "name": "Iowa State",
+              "seed": 3
+            },
+            "winner": {
+              "name": "Iowa State",
+              "seed": 3
+            },
+            "reasoning": "While both teams have their strengths, Iowa State's defensive efficiency and free throw shooting give them an advantage. Their ability to limit opponents' scoring opportunities and capitalize on free throw chances could be the difference-maker in a close game. Additionally, Iowa State's higher seeding and stronger schedule during the regular season suggest they may be more prepared for the challenges of the NCAA tournament.",
+            "analysis": "North Carolina and Iowa State have similar statistics in many areas, but there are some key differences. Both teams have similar points per game, field goal percentages, and three-point shooting percentages. However, Iowa State has a slightly better defensive efficiency, allowing 68.1 points per game compared to North Carolina's 74.8. Iowa State also has a higher free throw percentage, which could be crucial in a close game. On the other hand, North Carolina has a higher rebounding margin and more steals per game.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        North Carolina and Iowa State have similar statistics in many areas, but there are some key differences. Both teams have similar points per game, field goal percentages, and three-point shooting percentages. However, Iowa State has a slightly better defensive efficiency, allowing 68.1 points per game compared to North Carolina's 74.8. Iowa State also has a higher free throw percentage, which could be crucial in a close game. On the other hand, North Carolina has a higher rebounding margin and more steals per game.\n\n        REASONING:\n        While both teams have their strengths, Iowa State's defensive efficiency and free throw shooting give them an advantage. Their ability to limit opponents' scoring opportunities and capitalize on free throw chances could be the difference-maker in a close game. Additionally, Iowa State's higher seeding and stronger schedule during the regular season suggest they may be more prepared for the challenges of the NCAA tournament.\n\n        PREDICTION:\n        Iowa State"
+          },
+          {
+            "round": 2,
+            "region": "South",
+            "matchup_index": 3,
+            "team1": {
+              "name": "Marquette",
+              "seed": 7
+            },
+            "team2": {
+              "name": "Michigan St",
+              "seed": 2
+            },
+            "winner": {
+              "name": "Michigan St",
+              "seed": 2
+            },
+            "reasoning": "Michigan St's rebounding advantage and higher free throw percentage give them an edge in this matchup. Marquette's reliance on three-point shooting (37% of their points come from beyond the arc) could be a liability if they have an off night, whereas Michigan St's more balanced offense makes them less dependent on outside shooting. Additionally, Michigan St's slightly better defensive field goal percentage suggests they may be able to contain Marquette's offense.",
+            "analysis": "Marquette and Michigan St have similar statistics in terms of points scored, field goal percentage, and three-point shooting. However, Michigan St has a slight edge in terms of rebounding, with an average of 39.8 rebounds per game compared to Marquette's 32.5. Michigan St also has a higher free throw percentage, shooting 78% from the line compared to Marquette's 74%. On the defensive end, both teams allow around 68 points per game, but Michigan St has a slightly better defensive field goal percentage, allowing opponents to shoot 40% from the field compared to Marquette's 42%.",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nMarquette and Michigan St have similar statistics in terms of points scored, field goal percentage, and three-point shooting. However, Michigan St has a slight edge in terms of rebounding, with an average of 39.8 rebounds per game compared to Marquette's 32.5. Michigan St also has a higher free throw percentage, shooting 78% from the line compared to Marquette's 74%. On the defensive end, both teams allow around 68 points per game, but Michigan St has a slightly better defensive field goal percentage, allowing opponents to shoot 40% from the field compared to Marquette's 42%.\n\nREASONING:\nMichigan St's rebounding advantage and higher free throw percentage give them an edge in this matchup. Marquette's reliance on three-point shooting (37% of their points come from beyond the arc) could be a liability if they have an off night, whereas Michigan St's more balanced offense makes them less dependent on outside shooting. Additionally, Michigan St's slightly better defensive field goal percentage suggests they may be able to contain Marquette's offense.\n\nPREDICTION:\nMichigan St"
+          },
+          {
+            "round": 2,
+            "region": "West",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Florida",
+              "seed": 1
+            },
+            "team2": {
+              "name": "UConn",
+              "seed": 8
+            },
+            "winner": {
+              "name": "Florida",
+              "seed": 1
+            },
+            "reasoning": "Florida's significant advantage in rebounding and defensive efficiency gives them an edge in this matchup. UConn's balanced offense and defense are impressive, but they struggle to match Florida's overall athleticism and depth. Florida's ability to control the boards and limit UConn's scoring opportunities will be crucial in this game.",
+            "analysis": "Florida, the top-seeded team, boasts an impressive offense, scoring 85.40 points per game with a 47% field goal percentage and 35% three-point shooting. They also have a strong rebounding advantage, grabbing 42.00 rebounds per game. On the defensive end, they hold opponents to 69.20 points per game with a 40% field goal percentage and 30% three-point shooting. UConn, the 8th-seeded team, has a more balanced offense and defense. They score 77.40 points per game with a 48% field goal percentage and 37% three-point shooting. They also have a strong defensive presence, holding opponents to 68.00 points per game with a 42% field goal percentage and 35% three-point shooting.",
+            "raw_prediction": " \"\"\"\n\nI'll provide the analysis and prediction for the Second Round matchup between Florida and UConn.\n\nANALYSIS:\nFlorida, the top-seeded team, boasts an impressive offense, scoring 85.40 points per game with a 47% field goal percentage and 35% three-point shooting. They also have a strong rebounding advantage, grabbing 42.00 rebounds per game. On the defensive end, they hold opponents to 69.20 points per game with a 40% field goal percentage and 30% three-point shooting. UConn, the 8th-seeded team, has a more balanced offense and defense. They score 77.40 points per game with a 48% field goal percentage and 37% three-point shooting. They also have a strong defensive presence, holding opponents to 68.00 points per game with a 42% field goal percentage and 35% three-point shooting.\n\nREASONING:\nFlorida's significant advantage in rebounding and defensive efficiency gives them an edge in this matchup. UConn's balanced offense and defense are impressive, but they struggle to match Florida's overall athleticism and depth. Florida's ability to control the boards and limit UConn's scoring opportunities will be crucial in this game.\n\nPREDICTION:\nFlorida"
+          },
+          {
+            "round": 2,
+            "region": "West",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Memphis",
+              "seed": 5
+            },
+            "team2": {
+              "name": "Maryland",
+              "seed": 4
+            },
+            "winner": {
+              "name": "Maryland",
+              "seed": 4
+            },
+            "reasoning": "While both teams have their strengths, Maryland's defensive prowess and higher 3-point shooting percentage give them an advantage. Maryland's ability to limit their opponents' scoring opportunities and create turnovers will make it difficult for Memphis to score. Additionally, Maryland's higher free throw percentage will give them an edge in close games.",
+            "analysis": "Both Memphis and Maryland have impressive statistics, but there are some key differences. Memphis has a slightly higher scoring average (80.10 vs 81.70), but Maryland has a higher field goal percentage (0.47 vs 0.47). Maryland also has a higher 3-point shooting percentage (0.37 vs 0.38) and a higher free throw percentage (0.76 vs 0.70). On the defensive side, Maryland allows fewer points per game (67.00 vs 73.20) and has a higher defensive rebounding average (23.80 vs 22.40). Memphis, however, has a higher steals per game average (7.80 vs 7.90) and a higher blocks per game average (4.00 vs 4.40).",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nBoth Memphis and Maryland have impressive statistics, but there are some key differences. Memphis has a slightly higher scoring average (80.10 vs 81.70), but Maryland has a higher field goal percentage (0.47 vs 0.47). Maryland also has a higher 3-point shooting percentage (0.37 vs 0.38) and a higher free throw percentage (0.76 vs 0.70). On the defensive side, Maryland allows fewer points per game (67.00 vs 73.20) and has a higher defensive rebounding average (23.80 vs 22.40). Memphis, however, has a higher steals per game average (7.80 vs 7.90) and a higher blocks per game average (4.00 vs 4.40).\n\nREASONING:\nWhile both teams have their strengths, Maryland's defensive prowess and higher 3-point shooting percentage give them an advantage. Maryland's ability to limit their opponents' scoring opportunities and create turnovers will make it difficult for Memphis to score. Additionally, Maryland's higher free throw percentage will give them an edge in close games.\n\nPREDICTION:\nMaryland"
+          },
+          {
+            "round": 2,
+            "region": "West",
+            "matchup_index": 2,
+            "team1": {
+              "name": "Missouri",
+              "seed": 6
+            },
+            "team2": {
+              "name": "Texas Tech",
+              "seed": 3
+            },
+            "winner": {
+              "name": "Texas Tech",
+              "seed": 3
+            },
+            "reasoning": "While both teams have similar statistics, Texas Tech's defensive efficiency stands out. They allow only 67.60 points per game, compared to Missouri's 73.80. This, combined with their higher free throw percentage, gives them an advantage in close games. Additionally, Texas Tech's higher assist average suggests they have a more cohesive team effort.",
+            "analysis": "Missouri and Texas Tech have similar statistics, but with some key differences. Missouri has a slightly higher points per game average (84.50 vs 80.90), but Texas Tech has a better field goal percentage (0.47 vs 0.48). Missouri has a higher 3-point shooting percentage (0.37 vs 0.38), but Texas Tech has a higher free throw percentage (0.76 vs 0.72). Both teams have similar rebounding and assist numbers, but Missouri has a higher steal average (9.40 vs 6.50).",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Missouri and Texas Tech have similar statistics, but with some key differences. Missouri has a slightly higher points per game average (84.50 vs 80.90), but Texas Tech has a better field goal percentage (0.47 vs 0.48). Missouri has a higher 3-point shooting percentage (0.37 vs 0.38), but Texas Tech has a higher free throw percentage (0.76 vs 0.72). Both teams have similar rebounding and assist numbers, but Missouri has a higher steal average (9.40 vs 6.50).\n\n        REASONING:\n        While both teams have similar statistics, Texas Tech's defensive efficiency stands out. They allow only 67.60 points per game, compared to Missouri's 73.80. This, combined with their higher free throw percentage, gives them an advantage in close games. Additionally, Texas Tech's higher assist average suggests they have a more cohesive team effort.\n\n        PREDICTION:\n        Texas Tech"
+          },
+          {
+            "round": 2,
+            "region": "West",
+            "matchup_index": 3,
+            "team1": {
+              "name": "Kansas",
+              "seed": 7
+            },
+            "team2": {
+              "name": "St John's",
+              "seed": 2
+            },
+            "winner": {
+              "name": "St John's",
+              "seed": 2
+            },
+            "reasoning": "While Kansas has some advantages in shooting percentages, St John's has a more well-rounded game with a higher scoring average, better rebounding, and more steals. St John's also has a slightly better defensive efficiency, allowing 65.90 points per game compared to Kansas' 69.30. This suggests that St John's is better equipped to handle Kansas' offense.",
+            "analysis": "Both Kansas and St John's have impressive statistics, but there are some key differences that stand out. Kansas has a slightly higher field goal percentage (0.47 vs 0.45) and a better three-point shooting percentage (0.35 vs 0.30). However, St John's has a higher points per game average (78.70 vs 76.20) and a better free throw shooting percentage (0.69 vs 0.71). St John's also has a higher rebounding margin (40.90 vs 38.50) and more steals per game (9.20 vs 6.20).",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Both Kansas and St John's have impressive statistics, but there are some key differences that stand out. Kansas has a slightly higher field goal percentage (0.47 vs 0.45) and a better three-point shooting percentage (0.35 vs 0.30). However, St John's has a higher points per game average (78.70 vs 76.20) and a better free throw shooting percentage (0.69 vs 0.71). St John's also has a higher rebounding margin (40.90 vs 38.50) and more steals per game (9.20 vs 6.20).\n\n        REASONING:\n        While Kansas has some advantages in shooting percentages, St John's has a more well-rounded game with a higher scoring average, better rebounding, and more steals. St John's also has a slightly better defensive efficiency, allowing 65.90 points per game compared to Kansas' 69.30. This suggests that St John's is better equipped to handle Kansas' offense.\n\n        PREDICTION:\n        St John's"
+          },
+          {
+            "round": 2,
+            "region": "East",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Baylor",
+              "seed": 9
+            },
+            "winner": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "reasoning": "Despite Baylor's strong three-point shooting, Duke's overall efficiency on offense and defense gives them the advantage. Duke's ability to score from both inside and outside the arc, combined with their strong defensive rebounding, will make it difficult for Baylor to keep up.",
+            "analysis": "Duke and Baylor have similar statistics, but with some key differences. Duke has a slightly higher points per game average (82.70 vs 81.50) and a better field goal percentage (49% vs 47%). However, Baylor has a higher three-point shooting percentage (37% vs 38%) and a slightly better free throw percentage (76% vs 78%). Both teams have similar defensive statistics, with Duke allowing 61.90 points per game and Baylor allowing 71.50 points per game.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Duke and Baylor have similar statistics, but with some key differences. Duke has a slightly higher points per game average (82.70 vs 81.50) and a better field goal percentage (49% vs 47%). However, Baylor has a higher three-point shooting percentage (37% vs 38%) and a slightly better free throw percentage (76% vs 78%). Both teams have similar defensive statistics, with Duke allowing 61.90 points per game and Baylor allowing 71.50 points per game. \n\n        REASONING:\n        Despite Baylor's strong three-point shooting, Duke's overall efficiency on offense and defense gives them the advantage. Duke's ability to score from both inside and outside the arc, combined with their strong defensive rebounding, will make it difficult for Baylor to keep up.\n\n        PREDICTION:\n        Duke"
+          },
+          {
+            "round": 2,
+            "region": "East",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Oregon",
+              "seed": 5
+            },
+            "team2": {
+              "name": "Arizona",
+              "seed": 4
+            },
+            "winner": {
+              "name": "Arizona",
+              "seed": 4
+            },
+            "reasoning": "Arizona's high-powered offense, led by their 49% field goal percentage, will be difficult for Oregon to contain. While Oregon's defense is solid, Arizona's rebounding advantage will give them more opportunities to score. Additionally, Arizona's ability to score from both inside and outside the arc will make it challenging for Oregon to adjust their defense.",
+            "analysis": "Oregon and Arizona have distinct strengths and weaknesses. Oregon's offense is less efficient, scoring 77.5 points per game with a 47% field goal percentage, compared to Arizona's 85 points per game with a 49% field goal percentage. However, Oregon's defense is more effective, allowing 70 points per game with a 42% opponent field goal percentage, whereas Arizona allows 72 points per game with a 42% opponent field goal percentage. Arizona has a significant advantage in rebounding, averaging 39 rebounds per game compared to Oregon's 35. Both teams have similar three-point shooting percentages, around 36%.",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nOregon and Arizona have distinct strengths and weaknesses. Oregon's offense is less efficient, scoring 77.5 points per game with a 47% field goal percentage, compared to Arizona's 85 points per game with a 49% field goal percentage. However, Oregon's defense is more effective, allowing 70 points per game with a 42% opponent field goal percentage, whereas Arizona allows 72 points per game with a 42% opponent field goal percentage. Arizona has a significant advantage in rebounding, averaging 39 rebounds per game compared to Oregon's 35. Both teams have similar three-point shooting percentages, around 36%. \n\nREASONING:\nArizona's high-powered offense, led by their 49% field goal percentage, will be difficult for Oregon to contain. While Oregon's defense is solid, Arizona's rebounding advantage will give them more opportunities to score. Additionally, Arizona's ability to score from both inside and outside the arc will make it challenging for Oregon to adjust their defense.\n\nPREDICTION:\nArizona"
+          },
+          {
+            "round": 2,
+            "region": "East",
+            "matchup_index": 2,
+            "team1": {
+              "name": "VCU",
+              "seed": 11
+            },
+            "team2": {
+              "name": "Wisconsin",
+              "seed": 3
+            },
+            "winner": {
+              "name": "Wisconsin",
+              "seed": 3
+            },
+            "reasoning": "While VCU has some advantages on the defensive side, Wisconsin's superior shooting percentages and rebounding margin give them an overall advantage. Wisconsin's ability to score efficiently from both inside and outside the 3-point line will be difficult for VCU to match.",
+            "analysis": "VCU and Wisconsin have similar statistics in many areas, but there are some key differences. VCU has a slightly higher points per game average (77.10 vs 75.00), but Wisconsin has a better field goal percentage (0.47 vs 0.45). Wisconsin also has a higher 3-point shooting percentage (0.37 vs 0.33). On the defensive side, VCU allows fewer points per game (62.40 vs 67.00) and has a higher block percentage (5.00 vs 2.50). However, Wisconsin has a higher rebounding margin (33.50 vs 38.40).",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        VCU and Wisconsin have similar statistics in many areas, but there are some key differences. VCU has a slightly higher points per game average (77.10 vs 75.00), but Wisconsin has a better field goal percentage (0.47 vs 0.45). Wisconsin also has a higher 3-point shooting percentage (0.37 vs 0.33). On the defensive side, VCU allows fewer points per game (62.40 vs 67.00) and has a higher block percentage (5.00 vs 2.50). However, Wisconsin has a higher rebounding margin (33.50 vs 38.40).\n\n        REASONING:\n        While VCU has some advantages on the defensive side, Wisconsin's superior shooting percentages and rebounding margin give them an overall advantage. Wisconsin's ability to score efficiently from both inside and outside the 3-point line will be difficult for VCU to match.\n\n        PREDICTION:\n        Wisconsin"
+          },
+          {
+            "round": 2,
+            "region": "East",
+            "matchup_index": 3,
+            "team1": {
+              "name": "Vanderbilt",
+              "seed": 10
+            },
+            "team2": {
+              "name": "Alabama",
+              "seed": 2
+            },
+            "winner": {
+              "name": "Alabama",
+              "seed": 2
+            },
+            "reasoning": "Alabama's offense is more efficient and potent, and their defense is capable of containing Vanderbilt's scoring threats. Additionally, Alabama's advantage in assists suggests they have better ball movement and are more likely to get high-percentage shots. Vanderbilt's defense will struggle to contain Alabama's offense, and their own offense may not be able to keep up with Alabama's scoring pace.",
+            "analysis": "Vanderbilt, the 10th seed, has a strong offense, scoring 79.60 points per game, with a respectable 45% field goal percentage and 33% three-point shooting. They also have a solid defense, allowing 74.80 points per game, with a 46% opponent field goal percentage. Alabama, the 2nd seed, has a more potent offense, scoring 89.50 points per game, with a 47% field goal percentage and 36% three-point shooting. Their defense is also strong, allowing 81.00 points per game, with a 44% opponent field goal percentage.\n\n        Both teams have similar rebounding numbers, with Vanderbilt averaging 34.90 rebounds per game and Alabama averaging 39.50. However, Alabama has a significant advantage in assists, averaging 16.50 per game compared to Vanderbilt's 14.00.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Vanderbilt, the 10th seed, has a strong offense, scoring 79.60 points per game, with a respectable 45% field goal percentage and 33% three-point shooting. They also have a solid defense, allowing 74.80 points per game, with a 46% opponent field goal percentage. Alabama, the 2nd seed, has a more potent offense, scoring 89.50 points per game, with a 47% field goal percentage and 36% three-point shooting. Their defense is also strong, allowing 81.00 points per game, with a 44% opponent field goal percentage.\n\n        Both teams have similar rebounding numbers, with Vanderbilt averaging 34.90 rebounds per game and Alabama averaging 39.50. However, Alabama has a significant advantage in assists, averaging 16.50 per game compared to Vanderbilt's 14.00.\n\n        REASONING:\n        Alabama's offense is more efficient and potent, and their defense is capable of containing Vanderbilt's scoring threats. Additionally, Alabama's advantage in assists suggests they have better ball movement and are more likely to get high-percentage shots. Vanderbilt's defense will struggle to contain Alabama's offense, and their own offense may not be able to keep up with Alabama's scoring pace.\n\n        PREDICTION:\n        Alabama"
+          },
+          {
+            "round": 2,
+            "region": "Midwest",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Houston",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Gonzaga",
+              "seed": 8
+            },
+            "winner": {
+              "name": "Gonzaga",
+              "seed": 8
+            },
+            "reasoning": "Gonzaga's high-powered offense, led by their exceptional field goal and three-point shooting percentages, will likely give Houston's defense trouble. While Houston's defense is strong, it may not be enough to contain Gonzaga's offense. Additionally, Gonzaga's rebounding advantage could lead to more second-chance opportunities, which could be crucial in a close game.",
+            "analysis": "Houston and Gonzaga have distinct strengths and weaknesses. Houston excels on defense, allowing only 58 points per game, with a strong defensive rebounding rate (25 DR) and a decent block rate (5 BLK). They also have a solid free throw shooting percentage (72%). However, their offense is less impressive, with a relatively low field goal percentage (44%) and a mediocre three-point shooting percentage (33%). Gonzaga, on the other hand, boasts a potent offense, scoring 85.5 points per game, with a high field goal percentage (50%) and a strong three-point shooting percentage (38%). They also have a high assist rate (17.5 AST) and a decent rebounding rate (38.5 REB). However, their defense is vulnerable, allowing 70 points per game, with a relatively low defensive rebounding rate (23 DR) and a mediocre block rate (3 BLK).",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nHouston and Gonzaga have distinct strengths and weaknesses. Houston excels on defense, allowing only 58 points per game, with a strong defensive rebounding rate (25 DR) and a decent block rate (5 BLK). They also have a solid free throw shooting percentage (72%). However, their offense is less impressive, with a relatively low field goal percentage (44%) and a mediocre three-point shooting percentage (33%). Gonzaga, on the other hand, boasts a potent offense, scoring 85.5 points per game, with a high field goal percentage (50%) and a strong three-point shooting percentage (38%). They also have a high assist rate (17.5 AST) and a decent rebounding rate (38.5 REB). However, their defense is vulnerable, allowing 70 points per game, with a relatively low defensive rebounding rate (23 DR) and a mediocre block rate (3 BLK).\n\nREASONING:\nGonzaga's high-powered offense, led by their exceptional field goal and three-point shooting percentages, will likely give Houston's defense trouble. While Houston's defense is strong, it may not be enough to contain Gonzaga's offense. Additionally, Gonzaga's rebounding advantage could lead to more second-chance opportunities, which could be crucial in a close game.\n\nPREDICTION:\nGonzaga"
+          },
+          {
+            "round": 2,
+            "region": "Midwest",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Clemson",
+              "seed": 5
+            },
+            "team2": {
+              "name": "Purdue",
+              "seed": 4
+            },
+            "winner": {
+              "name": "Purdue",
+              "seed": 4
+            },
+            "reasoning": "While both teams have their strengths, Purdue's advantage in field goal percentage and three-point shooting gives them an edge on the offensive end. Additionally, their rebounding margin and assist numbers suggest they can control the pace of the game and create more scoring opportunities. Clemson's defensive prowess is impressive, but Purdue's offense is more well-rounded and capable of exploiting weaknesses.",
+            "analysis": "Both Clemson and Purdue have impressive statistics, but there are some key differences that stand out. Clemson has a slightly higher scoring average (78.00 vs 77.90), but Purdue has a better field goal percentage (0.49 vs 0.48). Purdue also has a higher three-point shooting percentage (0.39 vs 0.38). On the defensive end, Clemson allows fewer points per game (71.00 vs 71.10) and has a higher block percentage (3.50 vs 1.00). However, Purdue has a higher rebounding margin (32.40 vs 34.50) and more assists per game (16.00 vs 15.50).",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Both Clemson and Purdue have impressive statistics, but there are some key differences that stand out. Clemson has a slightly higher scoring average (78.00 vs 77.90), but Purdue has a better field goal percentage (0.49 vs 0.48). Purdue also has a higher three-point shooting percentage (0.39 vs 0.38). On the defensive end, Clemson allows fewer points per game (71.00 vs 71.10) and has a higher block percentage (3.50 vs 1.00). However, Purdue has a higher rebounding margin (32.40 vs 34.50) and more assists per game (16.00 vs 15.50).\n\n        REASONING:\n        While both teams have their strengths, Purdue's advantage in field goal percentage and three-point shooting gives them an edge on the offensive end. Additionally, their rebounding margin and assist numbers suggest they can control the pace of the game and create more scoring opportunities. Clemson's defensive prowess is impressive, but Purdue's offense is more well-rounded and capable of exploiting weaknesses.\n\n        PREDICTION:\n        Purdue"
+          },
+          {
+            "round": 2,
+            "region": "Midwest",
+            "matchup_index": 2,
+            "team1": {
+              "name": "Illinois",
+              "seed": 6
+            },
+            "team2": {
+              "name": "Kentucky",
+              "seed": 3
+            },
+            "winner": {
+              "name": "Kentucky",
+              "seed": 3
+            },
+            "reasoning": "Kentucky's offense is significantly more potent than Illinois', and their rebounding advantage will give them more opportunities to score. While Illinois' defense is strong, it may struggle to contain Kentucky's high-powered offense. Additionally, Kentucky's ability to shoot from beyond the arc (40% 3P%) will stretch Illinois' defense and create openings for easy baskets.",
+            "analysis": "Illinois and Kentucky have distinct strengths and weaknesses. Illinois boasts a strong defense, holding opponents to 74.6 points per game, with a respectable 42.5% field goal percentage defense. They also excel in rebounding, with 42.5 rebounds per game, and have a decent free throw shooting percentage of 76%. However, their offense is somewhat limited, with a 45% field goal percentage and 31% three-point shooting percentage. Kentucky, on the other hand, has a potent offense, scoring 89 points per game, with a 50% field goal percentage and 40% three-point shooting percentage. They also have a strong rebounding presence, with 38 rebounds per game. However, their defense is somewhat suspect, allowing 78 points per game, with a 44% field goal percentage defense.",
+            "raw_prediction": "\n\n\n        ANALYSIS:\n        Illinois and Kentucky have distinct strengths and weaknesses. Illinois boasts a strong defense, holding opponents to 74.6 points per game, with a respectable 42.5% field goal percentage defense. They also excel in rebounding, with 42.5 rebounds per game, and have a decent free throw shooting percentage of 76%. However, their offense is somewhat limited, with a 45% field goal percentage and 31% three-point shooting percentage. Kentucky, on the other hand, has a potent offense, scoring 89 points per game, with a 50% field goal percentage and 40% three-point shooting percentage. They also have a strong rebounding presence, with 38 rebounds per game. However, their defense is somewhat suspect, allowing 78 points per game, with a 44% field goal percentage defense.\n        \n        REASONING:\n        Kentucky's offense is significantly more potent than Illinois', and their rebounding advantage will give them more opportunities to score. While Illinois' defense is strong, it may struggle to contain Kentucky's high-powered offense. Additionally, Kentucky's ability to shoot from beyond the arc (40% 3P%) will stretch Illinois' defense and create openings for easy baskets.\n        \n        PREDICTION:\n        Kentucky"
+          },
+          {
+            "round": 2,
+            "region": "Midwest",
+            "matchup_index": 3,
+            "team1": {
+              "name": "UCLA",
+              "seed": 7
+            },
+            "team2": {
+              "name": "Tennessee",
+              "seed": 2
+            },
+            "winner": {
+              "name": "Tennessee",
+              "seed": 2
+            },
+            "reasoning": "Tennessee's rebounding advantage and stronger defense give them an edge in this matchup. While UCLA has a slightly stronger opponent strength of schedule, Tennessee's overall statistics suggest they are the more well-rounded team. Additionally, Tennessee's ability to block shots and create turnovers could be a key factor in disrupting UCLA's offense.",
+            "analysis": "UCLA and Tennessee have similar statistics in terms of points scored, field goal percentage, and three-point shooting. However, Tennessee has a slight edge in terms of rebounding, with an average of 38.5 rebounds per game compared to UCLA's 32.7. Additionally, Tennessee has a stronger defense, allowing an average of 65.5 points per game compared to UCLA's 65.7. Both teams have similar assist and steal numbers, but Tennessee has a higher block average. UCLA has a slightly stronger opponent strength of schedule, but Tennessee has a higher winning percentage.",
+            "raw_prediction": "\n\n\n        ANALYSIS:\n        UCLA and Tennessee have similar statistics in terms of points scored, field goal percentage, and three-point shooting. However, Tennessee has a slight edge in terms of rebounding, with an average of 38.5 rebounds per game compared to UCLA's 32.7. Additionally, Tennessee has a stronger defense, allowing an average of 65.5 points per game compared to UCLA's 65.7. Both teams have similar assist and steal numbers, but Tennessee has a higher block average. UCLA has a slightly stronger opponent strength of schedule, but Tennessee has a higher winning percentage.\n\n        \n        REASONING:\n        Tennessee's rebounding advantage and stronger defense give them an edge in this matchup. While UCLA has a slightly stronger opponent strength of schedule, Tennessee's overall statistics suggest they are the more well-rounded team. Additionally, Tennessee's ability to block shots and create turnovers could be a key factor in disrupting UCLA's offense.\n\n        \n        PREDICTION:\n        Tennessee"
+          }
+        ],
+        "3": [
+          {
+            "round": 3,
+            "region": "South",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Michigan",
+              "seed": 5
+            },
+            "winner": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "reasoning": "Auburn's advantage in scoring and rebounding, combined with their strong defensive performance (opponent field goal percentage of 0.41), gives them an edge in this matchup. While Michigan has a strong three-point shooting game, Auburn's ability to control the boards and limit their opponents' scoring opportunities should allow them to come out on top.",
+            "analysis": "Auburn and Michigan have similar statistics, but with some key differences. Auburn has a higher scoring average (83.80 vs 78.30) and a slightly better field goal percentage (0.48 vs 0.47). They also have a higher rebounding margin (37.10 vs 38.20) and more blocks per game (6.10 vs 3.00). On the other hand, Michigan has a slightly better three-point shooting percentage (0.33 vs 0.37) and a lower opponent scoring average (71.20 vs 69.60).",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nAuburn and Michigan have similar statistics, but with some key differences. Auburn has a higher scoring average (83.80 vs 78.30) and a slightly better field goal percentage (0.48 vs 0.47). They also have a higher rebounding margin (37.10 vs 38.20) and more blocks per game (6.10 vs 3.00). On the other hand, Michigan has a slightly better three-point shooting percentage (0.33 vs 0.37) and a lower opponent scoring average (71.20 vs 69.60).\n\nREASONING:\nAuburn's advantage in scoring and rebounding, combined with their strong defensive performance (opponent field goal percentage of 0.41), gives them an edge in this matchup. While Michigan has a strong three-point shooting game, Auburn's ability to control the boards and limit their opponents' scoring opportunities should allow them to come out on top.\n\nPREDICTION:\nAuburn"
+          },
+          {
+            "round": 3,
+            "region": "South",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Iowa State",
+              "seed": 3
+            },
+            "team2": {
+              "name": "Michigan St",
+              "seed": 2
+            },
+            "winner": {
+              "name": "Michigan St",
+              "seed": 2
+            },
+            "reasoning": "Michigan State's rebounding advantage and lower opponent field goal percentage give them an edge on the defensive end. While Iowa State has a higher three-point shooting percentage, Michigan State's ability to limit their opponents' scoring opportunities will be crucial in this matchup. Additionally, Michigan State's higher free throw shooting percentage will be important in a close game.",
+            "analysis": "Iowa State and Michigan State have similar statistics, but there are some key differences. Iowa State has a slightly higher points per game average (80.40 vs 78.20), but Michigan State has a higher field goal percentage (0.46 vs 0.48). Michigan State also has a higher rebounding average (39.80 vs 35.40) and a lower opponent field goal percentage (0.40 vs 0.42). Iowa State has a higher three-point shooting percentage (0.36 vs 0.31), but Michigan State has a higher free throw shooting percentage (0.78 vs 0.76).",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Iowa State and Michigan State have similar statistics, but there are some key differences. Iowa State has a slightly higher points per game average (80.40 vs 78.20), but Michigan State has a higher field goal percentage (0.46 vs 0.48). Michigan State also has a higher rebounding average (39.80 vs 35.40) and a lower opponent field goal percentage (0.40 vs 0.42). Iowa State has a higher three-point shooting percentage (0.36 vs 0.31), but Michigan State has a higher free throw shooting percentage (0.78 vs 0.76).\n        \n        REASONING:\n        Michigan State's rebounding advantage and lower opponent field goal percentage give them an edge on the defensive end. While Iowa State has a higher three-point shooting percentage, Michigan State's ability to limit their opponents' scoring opportunities will be crucial in this matchup. Additionally, Michigan State's higher free throw shooting percentage will be important in a close game.\n        \n        PREDICTION:\n        Michigan St"
+          },
+          {
+            "round": 3,
+            "region": "West",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Florida",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Maryland",
+              "seed": 4
+            },
+            "winner": {
+              "name": "Florida",
+              "seed": 1
+            },
+            "reasoning": "Florida's strong offense and rebounding advantage give them an edge in this matchup. While Maryland has a more balanced attack, their defense is slightly more porous, allowing more points per game. Florida's ability to control the boards and score efficiently should allow them to pull ahead.",
+            "analysis": "Florida, the top-seeded team, boasts a strong offense, averaging 85.40 points per game, with a field goal percentage of 0.47 and a three-point shooting percentage of 0.35. They also have a significant rebounding advantage, grabbing 42.00 rebounds per game compared to Maryland's 36.70. On the defensive end, Florida allows 69.20 points per game, with opponents shooting 0.40 from the field and 0.30 from three.\n\nMaryland, on the other hand, has a more balanced offense and defense. They average 81.70 points per game, with a field goal percentage of 0.47 and a three-point shooting percentage of 0.37. They also have a strong rebounding presence, grabbing 36.70 rebounds per game. Defensively, Maryland allows 67.00 points per game, with opponents shooting 0.41 from the field and 0.31 from three.",
+            "raw_prediction": " \"\"\"\n\nHere is the analysis and prediction:\n\nANALYSIS:\nFlorida, the top-seeded team, boasts a strong offense, averaging 85.40 points per game, with a field goal percentage of 0.47 and a three-point shooting percentage of 0.35. They also have a significant rebounding advantage, grabbing 42.00 rebounds per game compared to Maryland's 36.70. On the defensive end, Florida allows 69.20 points per game, with opponents shooting 0.40 from the field and 0.30 from three.\n\nMaryland, on the other hand, has a more balanced offense and defense. They average 81.70 points per game, with a field goal percentage of 0.47 and a three-point shooting percentage of 0.37. They also have a strong rebounding presence, grabbing 36.70 rebounds per game. Defensively, Maryland allows 67.00 points per game, with opponents shooting 0.41 from the field and 0.31 from three.\n\nREASONING:\nFlorida's strong offense and rebounding advantage give them an edge in this matchup. While Maryland has a more balanced attack, their defense is slightly more porous, allowing more points per game. Florida's ability to control the boards and score efficiently should allow them to pull ahead.\n\nPREDICTION:\nFlorida"
+          },
+          {
+            "round": 3,
+            "region": "West",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Texas Tech",
+              "seed": 3
+            },
+            "team2": {
+              "name": "St John's",
+              "seed": 2
+            },
+            "winner": {
+              "name": "Texas Tech",
+              "seed": 3
+            },
+            "reasoning": "While St John's has some advantages in rebounding and assists, Texas Tech's strong defense and higher scoring average give them an edge in this matchup. Texas Tech's ability to limit their opponents' scoring opportunities and capitalize on their own will be crucial in this game. Additionally, Texas Tech's three-point shooting percentage could be a deciding factor, as St John's has struggled to defend against three-point shots (0.32 opponent three-point shooting percentage).",
+            "analysis": "Both Texas Tech and St John's have impressive statistics, but there are some key differences that stand out. Texas Tech has a higher scoring average (80.90) compared to St John's (78.70), which could be attributed to their higher field goal percentage (0.47) and three-point shooting percentage (0.38). Additionally, Texas Tech has a stronger defense, allowing only 67.60 points per game, compared to St John's 65.90. However, St John's has a significant rebounding advantage, with an average of 40.90 rebounds per game, compared to Texas Tech's 36.70. St John's also has a higher number of assists per game (15.90) and steals per game (9.20).",
+            "raw_prediction": " \"\"\"\n\nI'll provide the analysis and prediction for the Sweet 16 matchup between Texas Tech and St John's.\n\nANALYSIS:\nBoth Texas Tech and St John's have impressive statistics, but there are some key differences that stand out. Texas Tech has a higher scoring average (80.90) compared to St John's (78.70), which could be attributed to their higher field goal percentage (0.47) and three-point shooting percentage (0.38). Additionally, Texas Tech has a stronger defense, allowing only 67.60 points per game, compared to St John's 65.90. However, St John's has a significant rebounding advantage, with an average of 40.90 rebounds per game, compared to Texas Tech's 36.70. St John's also has a higher number of assists per game (15.90) and steals per game (9.20).\n\nREASONING:\nWhile St John's has some advantages in rebounding and assists, Texas Tech's strong defense and higher scoring average give them an edge in this matchup. Texas Tech's ability to limit their opponents' scoring opportunities and capitalize on their own will be crucial in this game. Additionally, Texas Tech's three-point shooting percentage could be a deciding factor, as St John's has struggled to defend against three-point shots (0.32 opponent three-point shooting percentage).\n\nPREDICTION:\nTexas Tech"
+          },
+          {
+            "round": 3,
+            "region": "East",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Arizona",
+              "seed": 4
+            },
+            "winner": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "reasoning": "While both teams have strong offenses, Duke's defensive efficiency and rebounding margin give them an advantage. Duke's ability to limit their opponents' scoring opportunities and control the boards will allow them to dictate the pace of the game. Additionally, Duke's experience as a number one seed will give them an edge in terms of preparation and mental toughness.",
+            "analysis": "Duke and Arizona have similar statistics, but with some key differences. Both teams have high-scoring offenses, with Duke averaging 82.70 points per game and Arizona averaging 85.00 points per game. However, Duke has a slightly better defensive efficiency, allowing 61.90 points per game compared to Arizona's 72.00 points per game. Duke also has a higher rebounding margin, with 38.60 rebounds per game compared to Arizona's 39.00 rebounds per game. Arizona, on the other hand, has a higher assist average, with 18.00 assists per game compared to Duke's 16.80 assists per game.",
+            "raw_prediction": " \"\"\"\n\n        ANALYSIS:\n        Duke and Arizona have similar statistics, but with some key differences. Both teams have high-scoring offenses, with Duke averaging 82.70 points per game and Arizona averaging 85.00 points per game. However, Duke has a slightly better defensive efficiency, allowing 61.90 points per game compared to Arizona's 72.00 points per game. Duke also has a higher rebounding margin, with 38.60 rebounds per game compared to Arizona's 39.00 rebounds per game. Arizona, on the other hand, has a higher assist average, with 18.00 assists per game compared to Duke's 16.80 assists per game.\n\n        REASONING:\n        While both teams have strong offenses, Duke's defensive efficiency and rebounding margin give them an advantage. Duke's ability to limit their opponents' scoring opportunities and control the boards will allow them to dictate the pace of the game. Additionally, Duke's experience as a number one seed will give them an edge in terms of preparation and mental toughness.\n\n        PREDICTION:\n        Duke"
+          },
+          {
+            "round": 3,
+            "region": "East",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Wisconsin",
+              "seed": 3
+            },
+            "team2": {
+              "name": "Alabama",
+              "seed": 2
+            },
+            "winner": {
+              "name": "Wisconsin",
+              "seed": 3
+            },
+            "reasoning": "While Alabama's offense is impressive, Wisconsin's defensive prowess and ability to limit opponents' scoring opportunities will be crucial in this matchup. Wisconsin's 3-point shooting advantage and slightly better free throw shooting (75% to 74%) will also give them an edge. Additionally, Wisconsin's experience in playing tougher opponents will help them prepare for Alabama's high-powered offense.",
+            "analysis": "Wisconsin and Alabama have distinct strengths and weaknesses. Wisconsin excels in defensive efficiency, allowing only 67 points per game, while Alabama boasts a potent offense, scoring 89.5 points per game. Wisconsin's 3-point shooting (37%) is slightly better than Alabama's (36%). Both teams have similar rebounding numbers, but Alabama has a slight edge in assists and steals. Wisconsin's strength of schedule is slightly tougher, with an average opponent scoring 67 points per game, compared to Alabama's 81 points per game.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Wisconsin and Alabama have distinct strengths and weaknesses. Wisconsin excels in defensive efficiency, allowing only 67 points per game, while Alabama boasts a potent offense, scoring 89.5 points per game. Wisconsin's 3-point shooting (37%) is slightly better than Alabama's (36%). Both teams have similar rebounding numbers, but Alabama has a slight edge in assists and steals. Wisconsin's strength of schedule is slightly tougher, with an average opponent scoring 67 points per game, compared to Alabama's 81 points per game.\n\n        REASONING:\n        While Alabama's offense is impressive, Wisconsin's defensive prowess and ability to limit opponents' scoring opportunities will be crucial in this matchup. Wisconsin's 3-point shooting advantage and slightly better free throw shooting (75% to 74%) will also give them an edge. Additionally, Wisconsin's experience in playing tougher opponents will help them prepare for Alabama's high-powered offense.\n\n        PREDICTION:\n        Wisconsin"
+          },
+          {
+            "round": 3,
+            "region": "Midwest",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Gonzaga",
+              "seed": 8
+            },
+            "team2": {
+              "name": "Purdue",
+              "seed": 4
+            },
+            "winner": {
+              "name": "Gonzaga",
+              "seed": 8
+            },
+            "reasoning": "Despite Purdue's strong defensive statistics, Gonzaga's high-powered offense and rebounding advantage give them the edge in this matchup. Gonzaga's ability to score efficiently from both inside and outside the three-point line will be difficult for Purdue to contain. Additionally, Gonzaga's rebounding advantage will give them more opportunities to score in transition and limit Purdue's chances to score on the fast break.",
+            "analysis": "Gonzaga and Purdue have similar statistics in many areas, but there are some key differences that stand out. Gonzaga has a higher points per game average (85.50 to 77.90), which is largely due to their superior field goal percentage (50% to 49%). However, Purdue has a slightly better three-point shooting percentage (39% to 38%). Both teams have similar defensive statistics, with Purdue allowing 71.10 points per game to Gonzaga's 70.00. Gonzaga has a slight rebounding advantage (38.50 to 32.40), but Purdue has a slightly better assist-to-turnover ratio (16.00 assists to 12.50 assists).",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nGonzaga and Purdue have similar statistics in many areas, but there are some key differences that stand out. Gonzaga has a higher points per game average (85.50 to 77.90), which is largely due to their superior field goal percentage (50% to 49%). However, Purdue has a slightly better three-point shooting percentage (39% to 38%). Both teams have similar defensive statistics, with Purdue allowing 71.10 points per game to Gonzaga's 70.00. Gonzaga has a slight rebounding advantage (38.50 to 32.40), but Purdue has a slightly better assist-to-turnover ratio (16.00 assists to 12.50 assists).\n\nREASONING:\nDespite Purdue's strong defensive statistics, Gonzaga's high-powered offense and rebounding advantage give them the edge in this matchup. Gonzaga's ability to score efficiently from both inside and outside the three-point line will be difficult for Purdue to contain. Additionally, Gonzaga's rebounding advantage will give them more opportunities to score in transition and limit Purdue's chances to score on the fast break.\n\nPREDICTION:\nGonzaga"
+          },
+          {
+            "round": 3,
+            "region": "Midwest",
+            "matchup_index": 1,
+            "team1": {
+              "name": "Kentucky",
+              "seed": 3
+            },
+            "team2": {
+              "name": "Tennessee",
+              "seed": 2
+            },
+            "winner": {
+              "name": "Tennessee",
+              "seed": 2
+            },
+            "reasoning": "While Kentucky's offense is more potent, Tennessee's defense and rebounding ability give them an edge in this matchup. Tennessee's ability to limit opponents' scoring opportunities and control the boards will make it difficult for Kentucky to maintain their high-scoring pace. Additionally, Tennessee's strong free throw shooting will allow them to capitalize on scoring opportunities and potentially pull away in the second half.",
+            "analysis": "Both Kentucky and Tennessee have impressive statistics, but there are some key differences. Kentucky has a higher points per game average (89.00 vs 80.50) and a better field goal percentage (50% vs 47%). However, Tennessee has a stronger defensive presence, allowing only 65.50 points per game compared to Kentucky's 78.00. Tennessee also has a higher rebounding margin (38.50 vs 38.00) and more steals per game (8.00 vs 7.00). Kentucky has a slight advantage in three-point shooting (40% vs 36%) but Tennessee has a better free throw percentage (74% vs 76%).",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Both Kentucky and Tennessee have impressive statistics, but there are some key differences. Kentucky has a higher points per game average (89.00 vs 80.50) and a better field goal percentage (50% vs 47%). However, Tennessee has a stronger defensive presence, allowing only 65.50 points per game compared to Kentucky's 78.00. Tennessee also has a higher rebounding margin (38.50 vs 38.00) and more steals per game (8.00 vs 7.00). Kentucky has a slight advantage in three-point shooting (40% vs 36%) but Tennessee has a better free throw percentage (74% vs 76%).\n        \n        REASONING:\n        While Kentucky's offense is more potent, Tennessee's defense and rebounding ability give them an edge in this matchup. Tennessee's ability to limit opponents' scoring opportunities and control the boards will make it difficult for Kentucky to maintain their high-scoring pace. Additionally, Tennessee's strong free throw shooting will allow them to capitalize on scoring opportunities and potentially pull away in the second half.\n        \n        PREDICTION:\n        Tennessee"
+          }
+        ],
+        "4": [
+          {
+            "round": 4,
+            "region": "South",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Michigan St",
+              "seed": 2
+            },
+            "winner": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "reasoning": "While both teams have their strengths, Auburn's high-powered offense and ability to score from both inside and outside the arc give them an advantage. Michigan State's defense is strong, but it may struggle to contain Auburn's potent offense. Additionally, Auburn's experience as a 1-seed may give them an edge in terms of confidence and poise.",
+            "analysis": "Auburn and Michigan State are both strong teams with impressive statistics. Auburn has a slight edge in terms of points scored per game (83.80 vs 78.20) and field goal percentage (0.48 vs 0.46). They also have a higher 3-point shooting percentage (0.37 vs 0.31) and more steals per game (7.00 vs 5.50). However, Michigan State has a stronger defense, allowing fewer points per game (67.20 vs 69.60) and having a lower opponent field goal percentage (0.40 vs 0.41). They also have a higher rebounding margin (39.80 vs 37.10).",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nAuburn and Michigan State are both strong teams with impressive statistics. Auburn has a slight edge in terms of points scored per game (83.80 vs 78.20) and field goal percentage (0.48 vs 0.46). They also have a higher 3-point shooting percentage (0.37 vs 0.31) and more steals per game (7.00 vs 5.50). However, Michigan State has a stronger defense, allowing fewer points per game (67.20 vs 69.60) and having a lower opponent field goal percentage (0.40 vs 0.41). They also have a higher rebounding margin (39.80 vs 37.10).\n\nREASONING:\nWhile both teams have their strengths, Auburn's high-powered offense and ability to score from both inside and outside the arc give them an advantage. Michigan State's defense is strong, but it may struggle to contain Auburn's potent offense. Additionally, Auburn's experience as a 1-seed may give them an edge in terms of confidence and poise.\n\nPREDICTION:\nAuburn"
+          },
+          {
+            "round": 4,
+            "region": "West",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Florida",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Texas Tech",
+              "seed": 3
+            },
+            "winner": {
+              "name": "Florida",
+              "seed": 1
+            },
+            "reasoning": "While both teams have their strengths, Florida's high-powered offense and ability to score from both inside and outside the arc give them an advantage. Their superior 3-point shooting and free throw shooting will allow them to capitalize on scoring opportunities and put pressure on Texas Tech's defense. Additionally, Florida's experience as a 1-seed will give them an edge in terms of poise and confidence.",
+            "analysis": "Both Florida and Texas Tech have impressive statistics, but there are some key differences. Florida has a higher scoring average (85.40 vs 80.90) and a better field goal percentage (0.47 vs 0.47). They also have a higher 3-point shooting percentage (0.35 vs 0.38) and a better free throw percentage (0.72 vs 0.76). However, Texas Tech has a slightly better defensive efficiency, allowing 67.60 points per game compared to Florida's 69.20. Texas Tech also has a higher rebounding margin (36.70 vs 33.80) and a higher assist average (16.60 vs 15.90).",
+            "raw_prediction": " \"\"\"\n\nI'll analyze the statistics and predict the winner of this Elite 8 matchup.\n\nANALYSIS:\nBoth Florida and Texas Tech have impressive statistics, but there are some key differences. Florida has a higher scoring average (85.40 vs 80.90) and a better field goal percentage (0.47 vs 0.47). They also have a higher 3-point shooting percentage (0.35 vs 0.38) and a better free throw percentage (0.72 vs 0.76). However, Texas Tech has a slightly better defensive efficiency, allowing 67.60 points per game compared to Florida's 69.20. Texas Tech also has a higher rebounding margin (36.70 vs 33.80) and a higher assist average (16.60 vs 15.90).\n\nREASONING:\nWhile both teams have their strengths, Florida's high-powered offense and ability to score from both inside and outside the arc give them an advantage. Their superior 3-point shooting and free throw shooting will allow them to capitalize on scoring opportunities and put pressure on Texas Tech's defense. Additionally, Florida's experience as a 1-seed will give them an edge in terms of poise and confidence.\n\nPREDICTION:\nFlorida"
+          },
+          {
+            "round": 4,
+            "region": "East",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "team2": {
+              "name": "Wisconsin",
+              "seed": 3
+            },
+            "winner": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "reasoning": "While Wisconsin has some advantages, Duke's overall offensive efficiency and rebounding dominance give them a significant edge in this matchup. Duke's ability to score from both inside and outside the three-point line, combined with their strong rebounding, will make it difficult for Wisconsin to keep up. Additionally, Duke's strong defense, which allows only 61.90 points per game, will make it tough for Wisconsin to find scoring opportunities.",
+            "analysis": "Both Duke and Wisconsin have impressive statistics, but there are some key differences that stand out. Duke has a higher points per game average (82.70 vs 75.00), a better field goal percentage (49% vs 47%), and a higher three-point shooting percentage (38% vs 37%). They also have a significant advantage in rebounding, with an average of 38.60 rebounds per game compared to Wisconsin's 33.50. On the other hand, Wisconsin has a slightly better free throw shooting percentage (75% vs 78%) and a lower opponent points per game average (67.00 vs 61.90).",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Both Duke and Wisconsin have impressive statistics, but there are some key differences that stand out. Duke has a higher points per game average (82.70 vs 75.00), a better field goal percentage (49% vs 47%), and a higher three-point shooting percentage (38% vs 37%). They also have a significant advantage in rebounding, with an average of 38.60 rebounds per game compared to Wisconsin's 33.50. On the other hand, Wisconsin has a slightly better free throw shooting percentage (75% vs 78%) and a lower opponent points per game average (67.00 vs 61.90).\n\n        REASONING:\n        While Wisconsin has some advantages, Duke's overall offensive efficiency and rebounding dominance give them a significant edge in this matchup. Duke's ability to score from both inside and outside the three-point line, combined with their strong rebounding, will make it difficult for Wisconsin to keep up. Additionally, Duke's strong defense, which allows only 61.90 points per game, will make it tough for Wisconsin to find scoring opportunities.\n\n        PREDICTION:\n        Duke"
+          },
+          {
+            "round": 4,
+            "region": "Midwest",
+            "matchup_index": 0,
+            "team1": {
+              "name": "Gonzaga",
+              "seed": 8
+            },
+            "team2": {
+              "name": "Tennessee",
+              "seed": 2
+            },
+            "winner": {
+              "name": "Tennessee",
+              "seed": 2
+            },
+            "reasoning": "While Gonzaga has a more potent offense, Tennessee's strong defense and rebounding ability give them an advantage. Tennessee's ability to limit their opponents' scoring opportunities and control the boards will make it difficult for Gonzaga to maintain their high-scoring pace. Additionally, Tennessee's similar three-point shooting percentage and slightly better free throw shooting percentage (0.74) will allow them to keep up with Gonzaga's offense.",
+            "analysis": "Both Gonzaga and Tennessee have impressive statistics, but some differences stand out. Gonzaga has a higher points per game average (85.50) compared to Tennessee (80.50). Gonzaga also has a higher field goal percentage (0.50) and a slightly better three-point shooting percentage (0.38) compared to Tennessee (0.47 and 0.36, respectively). However, Tennessee has a stronger defense, allowing fewer points per game (65.50) compared to Gonzaga (70.00). Tennessee also has a slightly better defensive rebounding average (23.00) compared to Gonzaga (22.50).",
+            "raw_prediction": " \"\"\"\n\nI'll make my prediction based on the provided statistics.\n\nANALYSIS:\nBoth Gonzaga and Tennessee have impressive statistics, but some differences stand out. Gonzaga has a higher points per game average (85.50) compared to Tennessee (80.50). Gonzaga also has a higher field goal percentage (0.50) and a slightly better three-point shooting percentage (0.38) compared to Tennessee (0.47 and 0.36, respectively). However, Tennessee has a stronger defense, allowing fewer points per game (65.50) compared to Gonzaga (70.00). Tennessee also has a slightly better defensive rebounding average (23.00) compared to Gonzaga (22.50).\n\nREASONING:\nWhile Gonzaga has a more potent offense, Tennessee's strong defense and rebounding ability give them an advantage. Tennessee's ability to limit their opponents' scoring opportunities and control the boards will make it difficult for Gonzaga to maintain their high-scoring pace. Additionally, Tennessee's similar three-point shooting percentage and slightly better free throw shooting percentage (0.74) will allow them to keep up with Gonzaga's offense.\n\nPREDICTION:\nTennessee"
+          }
+        ],
+        "5": [
+          {
+            "round": 5,
+            "matchup_index": 0,
+            "team1": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "team1_region": "East",
+            "team2": {
+              "name": "Florida",
+              "seed": 1
+            },
+            "team2_region": "West",
+            "winner": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "winner_region": "East",
+            "reasoning": "While both teams have their strengths, I believe Duke has a slight advantage due to their more efficient offense and slightly better defense. Duke's ability to shoot the ball well from both inside and outside the arc will make it difficult for Florida to defend them. Additionally, Duke's experience in big games and their strong rebounding margin will give them an edge in this matchup.",
+            "analysis": "Both Duke and Florida have impressive statistics, but there are some key differences that stand out. Duke has a slightly better field goal percentage (0.49 vs 0.47) and a higher 3-point shooting percentage (0.38 vs 0.35). However, Florida has a higher scoring average (85.40 vs 82.70) and a better rebounding margin (42.00 vs 38.60). Defensively, Duke has a slightly better opponent field goal percentage (0.39 vs 0.40) and a better opponent 3-point shooting percentage (0.31 vs 0.30).",
+            "raw_prediction": " \"\"\"\n\nHere is my response:\n\nANALYSIS:\nBoth Duke and Florida have impressive statistics, but there are some key differences that stand out. Duke has a slightly better field goal percentage (0.49 vs 0.47) and a higher 3-point shooting percentage (0.38 vs 0.35). However, Florida has a higher scoring average (85.40 vs 82.70) and a better rebounding margin (42.00 vs 38.60). Defensively, Duke has a slightly better opponent field goal percentage (0.39 vs 0.40) and a better opponent 3-point shooting percentage (0.31 vs 0.30).\n\nREASONING:\nWhile both teams have their strengths, I believe Duke has a slight advantage due to their more efficient offense and slightly better defense. Duke's ability to shoot the ball well from both inside and outside the arc will make it difficult for Florida to defend them. Additionally, Duke's experience in big games and their strong rebounding margin will give them an edge in this matchup.\n\nPREDICTION:\nDuke"
+          },
+          {
+            "round": 5,
+            "matchup_index": 1,
+            "team1": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "team1_region": "South",
+            "team2": {
+              "name": "Tennessee",
+              "seed": 2
+            },
+            "team2_region": "Midwest",
+            "winner": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "winner_region": "South",
+            "reasoning": "While both teams have their strengths, Auburn's slight advantage in scoring and field goal percentage gives them an edge. Additionally, Auburn's defense has been more effective in limiting opponents' scoring, which could be crucial in a close game. Tennessee's rebounding advantage could be neutralized by Auburn's strong defensive rebounding.",
+            "analysis": "Auburn and Tennessee have similar statistics, but there are some key differences. Auburn has a slightly higher points per game average (83.80 vs 80.50) and a better field goal percentage (0.48 vs 0.47). However, Tennessee has a higher rebounding average (38.50 vs 37.10) and a slightly better defensive efficiency (Opp Pts: 65.50 vs 69.60). Both teams have similar three-point shooting percentages and free throw shooting percentages.",
+            "raw_prediction": " \"\"\"\n        ANALYSIS:\n        Auburn and Tennessee have similar statistics, but there are some key differences. Auburn has a slightly higher points per game average (83.80 vs 80.50) and a better field goal percentage (0.48 vs 0.47). However, Tennessee has a higher rebounding average (38.50 vs 37.10) and a slightly better defensive efficiency (Opp Pts: 65.50 vs 69.60). Both teams have similar three-point shooting percentages and free throw shooting percentages.\n\n        REASONING:\n        While both teams have their strengths, Auburn's slight advantage in scoring and field goal percentage gives them an edge. Additionally, Auburn's defense has been more effective in limiting opponents' scoring, which could be crucial in a close game. Tennessee's rebounding advantage could be neutralized by Auburn's strong defensive rebounding.\n\n        PREDICTION:\n        Auburn"
+          }
+        ],
+        "6": [
+          {
+            "round": 6,
+            "team1": {
+              "name": "Duke",
+              "seed": 1
+            },
+            "team1_region": "East",
+            "team2": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "team2_region": "South",
+            "winner": {
+              "name": "Auburn",
+              "seed": 1
+            },
+            "winner_region": "South",
+            "reasoning": "While both teams have their strengths, I believe Auburn has a slight advantage due to their defensive prowess. Their ability to limit opponents' scoring and shooting percentages could be crucial in a close championship game. Additionally, Auburn's higher free throw shooting percentage could be a deciding factor in a tight contest.",
+            "analysis": "Both Duke and Auburn have impressive statistics, but there are some key differences that stand out. Duke has a slightly higher field goal percentage (0.49 vs 0.48) and a higher 3-point shooting percentage (0.38 vs 0.37). However, Auburn has a higher free throw shooting percentage (0.74 vs 0.78) and more blocks per game (6.10 vs 3.00). In terms of defense, Auburn allows fewer points per game (69.60 vs 61.90) and has a higher opponent field goal percentage (0.41 vs 0.39). Duke, on the other hand, has a higher rebounding margin (38.60 vs 37.10) and more assists per game (16.80 vs 16.50).",
+            "raw_prediction": "\n\n\nHere is my response:\n\nANALYSIS:\nBoth Duke and Auburn have impressive statistics, but there are some key differences that stand out. Duke has a slightly higher field goal percentage (0.49 vs 0.48) and a higher 3-point shooting percentage (0.38 vs 0.37). However, Auburn has a higher free throw shooting percentage (0.74 vs 0.78) and more blocks per game (6.10 vs 3.00). In terms of defense, Auburn allows fewer points per game (69.60 vs 61.90) and has a higher opponent field goal percentage (0.41 vs 0.39). Duke, on the other hand, has a higher rebounding margin (38.60 vs 37.10) and more assists per game (16.80 vs 16.50).\n\nREASONING:\nWhile both teams have their strengths, I believe Auburn has a slight advantage due to their defensive prowess. Their ability to limit opponents' scoring and shooting percentages could be crucial in a close championship game. Additionally, Auburn's higher free throw shooting percentage could be a deciding factor in a tight contest.\n\nPREDICTION:\nAuburn"
+          }
+        ]
+      },
+      "champion": "Auburn",
+      "final_four": [
+        "Auburn",
+        "Florida",
+        "Duke",
+        "Tennessee"
+      ]
+    }
+  },
+  "time_taken": 329.3176460266113,
+  "final_four": [
+    "Auburn",
+    "Florida",
+    "Duke",
+    "Tennessee"
+  ],
+  "champion": "Auburn"
+}
