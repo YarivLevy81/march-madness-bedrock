@@ -5,6 +5,8 @@ BedrockClient module for interacting with Amazon Bedrock models.
 import json
 import boto3
 import os
+import time
+import random
 from boto3.session import Session
 from pathlib import Path
 from dotenv import load_dotenv
@@ -69,14 +71,36 @@ class BedrockClient:
         # Format request body based on provider
         request_body = self._format_request(prompt, system_prompt, max_tokens, temperature)
         
-        # Invoke model
-        response = self.bedrock_runtime.invoke_model(
-            modelId=self.model_id,
-            body=json.dumps(request_body)
-        )
+        # Retry parameters
+        max_retries = 5
+        retry_count = 0
+        base_delay = 1  # Start with 1 second delay
         
-        # Parse response based on provider
-        return self._parse_response(response)
+        while retry_count < max_retries:
+            try:
+                # Invoke model
+                response = self.bedrock_runtime.invoke_model(
+                    modelId=self.model_id,
+                    body=json.dumps(request_body)
+                )
+                
+                # Parse response based on provider
+                return self._parse_response(response)
+                
+            except self.bedrock_runtime.exceptions.ThrottlingException as e:
+                retry_count += 1
+                if retry_count >= max_retries:
+                    print(f"Maximum retries ({max_retries}) exceeded. Giving up.")
+                    raise e
+                
+                # Calculate exponential backoff with jitter
+                delay = base_delay * (2 ** (retry_count - 1)) + (0.1 * random.random())
+                print(f"Throttling detected. Retrying in {delay:.2f} seconds... (Attempt {retry_count}/{max_retries})")
+                time.sleep(delay)
+            
+            except Exception as e:
+                # For other exceptions, don't retry
+                raise e
     
     def _format_request(self, prompt, system_prompt, max_tokens, temperature):
         """
@@ -109,19 +133,20 @@ class BedrockClient:
             
         elif self.provider == "amazon":
             # Amazon Nova format
-            request = {
-                "inputText": prompt,
-                "textGenerationConfig": {
-                    "maxTokenCount": max_tokens,
-                    "temperature": temperature,
-                    "stopSequences": []
-                }
-            }
-            
             if system_prompt:
-                # For Nova, prepend system prompt to the user prompt
+                # For Nova, prepend system prompt to the user message
                 full_prompt = f"{system_prompt}\n\n{prompt}"
-                request["inputText"] = full_prompt
+                request = {
+                    "messages": [
+                        {"role": "user", "content": [{"text": full_prompt}]}
+                    ]
+                }
+            else:
+                request = {
+                    "messages": [
+                        {"role": "user", "content": [{"text": prompt}]}
+                    ]
+                }
                 
             return request
             
@@ -214,7 +239,19 @@ class BedrockClient:
             
         elif self.provider == "amazon":
             # Amazon Nova response format
-            return response_body.get("results", [{}])[0].get("outputText", "")
+            if "output" in response_body:
+                # Extract text from the output array
+                output = response_body.get("output", {})
+                if "message" in output:
+                    message = output.get("message", {})
+                    if "content" in message:
+                        content = message.get("content", [])
+                        for item in content:
+                            if "text" in item:
+                                return item.get("text", "")
+                return str(output)  # Fallback if we can't extract the text
+            else:
+                return response_body.get("completion", "")
             
         elif self.provider == "meta":
             # Llama response format

@@ -31,7 +31,7 @@ AVAILABLE_MODELS = {
     },
     "nova": {
         "name": "Amazon Nova Pro",
-        "model_id": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0:300k",
+        "model_id": "amazon.nova-pro-v1:0",
     }
 }
 

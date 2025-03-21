@@ -24,7 +24,7 @@ load_dotenv()
 MODELS = [
     {
         "name": "Claude 3.7 Sonnet",
-        "model_id": "anthropic.claude-3-7-sonnet-20240620-v1:0",
+        "model_id": "arn:aws:bedrock:us-east-1:273034491939:inference-profile/us.anthropic.claude-3-7-sonnet-20250219-v1:0",
     },
     {
         "name": "Llama 3.3 70B Instruct",
@@ -36,7 +36,7 @@ MODELS = [
     },
     {
         "name": "Amazon Nova Pro",
-        "model_id": "amazon.nova-pro-v1:0:300k",
+        "model_id": "amazon.nova-pro-v1:0",
     }
 ]
 
