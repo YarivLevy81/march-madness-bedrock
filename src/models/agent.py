@@ -195,5 +195,4 @@ class BracketAgent:
             if lines:
                 result["prediction"] = lines[-1]
         
-        print(f'DEBUG: {result}')
         return result
