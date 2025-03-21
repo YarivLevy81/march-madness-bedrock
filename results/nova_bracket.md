@@ -1,4 +1,4 @@
-NCAA March Madness 2025 Bracket - Nova
+# NCAA March Madness 2025 Bracket - Nova
 
 Champion: Auburn
 
