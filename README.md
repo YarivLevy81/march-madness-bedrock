@@ -70,6 +70,13 @@ Available model options: `claude`, `llama`, `mistral`, `nova`
 
 Additional tools:
 - `python visualize_results.py` - View bracket results in text format
+  - `--bracket` or `-b` - Print the full bracket with all rounds
+  - `--model` or `-m` - Filter results by model name (e.g., claude, llama)
+  - `--models` - List all available models
+  - `--all` or `-a` - Visualize all result files
+  - `--list` or `-l` - List available result files
+  - `--file` or `-f` - Specify a specific result file to visualize
+  - `--save` or `-s` - Save output to text files in results directory
 - `python compare_models.py` - Compare predictions across models
 - `python generate_report.py` - Generate a detailed markdown report
 
